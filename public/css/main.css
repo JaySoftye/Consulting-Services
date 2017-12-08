@@ -1,0 +1,1060 @@
+/*!
+ * Bootstrap v4.0.0-alpha (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@charset "UTF-8";
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family:'Roboto',Helvetica,Arial,san-serif !important;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0 0 !important;
+  padding: 0 0 !important;
+  font-family:'Roboto',Helvetica,Arial,san-serif !important;
+  background-color: rgb(255, 255, 255);
+}
+
+h1, h2, h3, h4, h5, h6, p, small, blockquote, a, button {
+  font-family:'Roboto',Helvetica,Arial,san-serif !important;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+}
+
+a, a:focus, a:hover, a:active {
+  outline: 0;
+}
+
+a img:hover, a img:focus, a img:active, .card.vid-button:hover {
+  opacity: 0.8;
+}
+
+/*! bootstrap Overrides */
+
+h1 {
+  margin-bottom: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300 !important;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row:after, .row:before {
+  display: inline-block;
+}
+
+.dropdown-toggle::after {
+  border: none;
+}
+
+.card, .card .card-header {
+  border-radius: 0 !important;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+}
+
+.modal-content {
+  width: 100%;
+  border-radius: 0 !important;
+}
+
+.modal-body {
+  margin-top: 25px;
+}
+
+.modal-backdrop {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+modal-backdrop.show {
+  opacity: .85 !important;
+}
+
+button.close {
+  opacity: 1 !important;
+}
+
+button.close span {
+  color: black;
+  font-weight: 700;
+  opacity: 1;
+  font-size: 2.5rem;
+}
+
+div.modal-dialog {
+  top: 12%;
+}
+
+/*! SHARED STYLES */
+
+.full-height {
+  height: 100%;
+  min-height: 100vh;
+}
+
+.nopadding {
+  padding: 0 0 !important;
+}
+
+.padding {
+  padding: 2.5rem;
+}
+
+.padding-right {
+  padding-right: 6rem;
+}
+
+.padding-left {
+  padding-left: 6rem;
+}
+
+.padding-top {
+  padding-top: 10rem;
+}
+
+.padding-bottom {
+  padding-bottom: 10rem;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.row .col-padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.teqBlue {
+  color: rgb(0, 180, 228);
+}
+
+.white {
+  color: #eceeef !important;
+}
+
+strong {
+  font-weight: 700 !important;
+}
+
+.leadership-text {
+  color: rgb(153, 149, 214) !important;
+}
+
+.nedm-text {
+  color: rgb(77, 168, 182) !important;
+}
+
+.stem-text {
+  color: rgb(122, 198, 93) !important;
+}
+
+a:hover, a:focus {
+  color: #00b3e3;
+}
+
+img.full {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.small-heading {
+  font-size: 125%;
+  margin-bottom: 2.5rem;
+}
+
+button.button.opd  {
+  display: block;
+  margin: 2rem auto !important;
+  outline: none;
+  background: rgb(255, 255, 255);
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  color: black;
+  font-weight: 400;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+
+button.button.light  {
+  display: inline;
+  margin: 1rem auto 2rem auto !important;
+  outline: none;
+  background: rgb(255, 255, 255);
+  padding: 25px 50px;
+  border: none;
+  border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  color: rgb(41, 92, 100);
+  font-weight: 400;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+
+button.button  {
+  display: block;
+  margin: 2rem auto;
+  outline: none;
+  background: transparent;
+  padding: 12px 33px;
+  border: 2px solid black;
+  border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  color: black;
+  font-weight: 400;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+
+button.button.sm  {
+  display: inline;
+  margin: 1rem auto;
+  padding: 10px 20px;
+  font-size: 90%;
+}
+
+button.button:hover, button.button.sm:hover {
+  color: white;
+  background-color: black;
+  -webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out;
+}
+
+button.button.block {
+  width: 100%;
+  display: block;
+  margin: 1rem auto !important;
+}
+
+button.button.leadership-button {
+  border: 2px solid rgb(153, 149, 214);
+  color: rgb(153, 149, 214);
+}
+
+button.button.leadership-button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(153, 149, 214);
+  -webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out;
+}
+
+button.button.nedm-button {
+  border: 2px solid rgb(77, 168, 182);
+  color: rgb(77, 168, 182);
+}
+
+button.button.nedm-button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(77, 168, 182);
+  -webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out;
+}
+
+button.button.stem-button {
+  border: 2px solid rgb(122, 198, 93);
+  color: rgb(122, 198, 93);
+}
+
+button.button.stem-button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(122, 198, 93);
+  -webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out;
+}
+
+button.play-button {
+  outline: none;
+  border: none;
+  padding: .75rem 3.75rem .75rem .75rem;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 1.25rem;
+  position: relative;
+}
+
+/*! Nav styles */
+nav#mainNav {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  z-index: 999;
+  display: block;
+  border-top: 4px solid #00b4e1;
+  background-color: rgba(30, 36, 40, .95);
+}
+
+nav#mainNav .container-fluid {
+  padding: 10px;
+}
+
+div#navMain .nav {
+  display: table;
+  width: 95%;
+  margin: 0;
+}
+
+div#navMain .nav > li.nav-item {
+  float: none;
+  display: table-cell;
+  text-align: left;
+}
+
+.navbar-nav > li.nav-item.closeMenuCell {
+  text-align: right;
+}
+
+.navbar-nav a.nav-link, .nav li a {
+  color: #eceeef;
+  font-size: inherit;
+}
+
+li.nav-item a.nav-link:focus {
+  color: #00b4e1;
+}
+
+.nav li a:hover, .navbar-nav a.nav-link:hover, .nav a.subnav-link:hover {
+  color: #00b3e3;
+  text-decoration: none;
+}
+
+.nav-item img.mainLogo {
+  height: 2.5rem;
+  width: auto !important;
+}
+
+.nav-item img.mainLogo.top {
+  height: 4.5rem;
+  width: auto !important;
+}
+
+.nav-item img.closeLogo {
+  width: 50%;
+}
+
+.subnav {
+  padding-top: 25px;
+  padding-left: 5rem;
+  padding-bottom: 25px;
+}
+
+.subnav h5 a.subnav-link {
+  font-weight: 500;
+}
+
+.subnav ul, .subnav li, .subnav li a {
+  list-style: none;
+  padding: 0 5px;
+}
+
+.subnav ul li.level2 {
+  padding-left: 15px;
+}
+
+#navbarMobile {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  width: 100%;
+  background-color: rgba(33, 39, 43, .9);
+  padding-bottom: 25px;
+}
+
+.container-fluid.header-container {
+  margin: 0 auto;
+}
+
+.container-fluid.header-container .header-logo {
+  position: relative;
+  z-index: 10;
+  padding-top: 15%;
+}
+
+.container-fluid.header-container div.mask {
+  width: 100%;
+  height: 33%;
+  position: relative;
+  z-index: 10;
+  padding-bottom: 2.25rem;
+  margin: 0 auto;
+  background-image: url('../images/top-header-white-gradient-mask.png');
+  background-size: contain;
+}
+
+.container-fluid.header-container div.video-mask {
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-fluid.header-container video {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+.container-fluid.header-container div.card.vid-button {
+  height: auto;
+  width: 20%;
+  position: absolute;
+  top: 45%;
+  right: 10%;
+  z-index: 10;
+}
+
+.card img.video-play {
+  width: 30%;
+  position: absolute;
+  z-index: 10;
+  right: 25%;
+  top: 15%;
+}
+
+.card img.bio-play {
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.container-fluid.last-section {
+  position: relative;
+  z-index: 1 !important;
+  margin-top: -30%;
+  height: 25rem !important;
+}
+
+.parallax, .parallax-first, .parallax-second, .parallax-third, .parallax-four, .parallax-five {
+  position: relative;
+}
+
+.parallax {
+  margin-top: -20%;
+}
+
+.parallax-first {
+  z-index: 10;
+}
+
+.parallax-second {
+  z-index: 20;
+}
+
+.parallax-third {
+  z-index: 30;
+}
+
+.parallax-four {
+  z-index: 40;
+}
+
+.parallax-five {
+  z-index: 50;
+}
+
+.parallax-six {
+  z-index: 60;
+}
+
+.main-content {
+  position: relative;
+  z-index: 10;
+}
+
+.main-content a {
+  color: black;
+}
+
+.home-col-sections {
+  min-height: 12.5rem;
+}
+
+form#nedm-survey {
+  padding: 2.75rem 0;
+}
+
+form#nedm-survey h2 {
+  padding-top: .5rem;
+  padding-right: 1rem;
+}
+
+form#nedm-survey label, form#nedm-survey .form-check p {
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+form#nedm-survey .group-row {
+  margin-top: 2.5rem;
+}
+
+form#nedm-survey .form-group {
+  margin-bottom: 2.5rem;
+}
+
+form#nedm-survey span.errormsg {
+  height: 15px;
+  font-weight: bold;
+  color: #B51020;
+}
+
+form#nedm-survey h4.error, form#nedm-survey h4.error img {
+  font-weight: bold;
+  height: 25px;
+  color: #B51020;
+}
+
+form#nedm-survey .form-control {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 2px solid black;
+  color: rgb(77, 168, 182);
+}
+
+form#nedm-survey .form-control.errorfield, input.form-check-input.errorfield {
+  border: 2px solid #B51020 !important;
+  -webkit-box-shadow: 0px 0px 2px 0px #B51020;
+  -moz-box-shadow: 0px 0px 2px 0px #B51020;
+  box-shadow: 0px 0px 2px 0px #B51020;
+}
+
+form#nedm-survey .form-check label.form-check-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form#nedm-survey label.form-check-label input.form-check-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  margin-top: 0;
+  border: 2px solid black;
+  color: rgb(77, 168, 182);
+}
+
+form#nedm-survey label.form-check-label input[type=radio]:checked {
+  background-color: black;
+  background-image: url('../images/ConsultingServices_form-check-label_bg.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+form#nedm-survey label.form-check-label span.form-check-input-text {
+  display: inline-block;
+  padding-left: 35px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+form#nedm-survey button#submit-survey {
+  display: block;
+  margin: 2rem auto !important;
+  outline: none;
+  background-color: black;
+  padding: 25px 40px;
+  border: 2px solid black;
+  border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+
+form#nedm-survey button#submit-survey:hover {
+  background-color: transparent;
+  color: black;
+  -webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out;
+}
+
+.card.vid-button {
+  cursor: pointer;
+}
+
+.card.leadership-course, .card.nedm-course, .card.stem-course {
+  margin-top: 5rem;
+}
+
+.card.leadership-course h2 strong, .card.nedm-course h2 strong, .card.stem-course h2 strong {
+  min-height: 100px;
+  display: block;
+}
+
+.card.leadership-course p, .card.nedm-course p, .card.stem-course p {
+  display: block; /* Fallback for non-webkit */
+  display: -webkit-box;
+  height: 50px;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card.leadership-course .card-header {
+  background-color: rgb(153, 149, 214);
+}
+
+.card.leadership-course .card-header span {
+  width: 175px;
+  height: 125px;
+  position: absolute;
+  top: -30px;
+  right: -10px;
+  background-image: url('../images/ConsultingServices_leadership-icon.svg');
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.card.leadership-course button.play-button {
+  margin: 1.5rem;
+  color: rgb(153, 149, 214);
+  background-image: url('../images/Teq_Consulting_Services_leadership-play_icon.jpg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.card.nedm-course .card-header {
+  background-color: rgb(77, 168, 182);
+}
+
+.card.nedm-course .card-header span {
+  width: 175px;
+  height: 125px;
+  position: absolute;
+  top: -30px;
+  right: -10px;
+  background-image: url('../images/ConsultingServices_network-enabled-icon.svg');
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.card.nedm-course button.play-button {
+  margin: 1.5rem;
+  color: rgb(77, 168, 182);
+  background-image: url('../images/Teq_Consulting_Services_network-play_icon.jpg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.card.stem-course .card-header {
+  background-color: rgb(122, 198, 93);
+}
+
+.card.stem-course .card-header span {
+  width: 175px;
+  height: 125px;
+  position: absolute;
+  top: -30px;
+  right: -10px;
+  background-image: url('../images/ConsultingServices_stem-icon.svg');
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.card.stem-course button.play-button {
+  margin: 1.5rem;
+  color: rgb(122, 198, 93);
+  background-image: url('../images/Teq_Consulting_Services_stem-play_icon.jpg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.card.leadership-course button.play-button:hover, .card.nedm-course button.play-button:hover, .card.stem-course button.play-button:hover {
+  opacity: 0.65;
+}
+
+.nedm-data-container .nedm-data {
+  margin-top: 36px;
+}
+
+.nedm-data-container .nedm-data .nedm-data-field {
+  height: 100% !important;
+  background-color: white;
+  margin-bottom: 0 !important;
+}
+
+.nedm-data-container .nedm-data .nedm-data-field:hover {
+  background-color: rgb(77, 168, 182) !important;
+  color: white;
+  -webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+.opd-screen-shot img#laptop {
+  position: relative;
+  z-index: 10;
+}
+
+.opd-screen-shot img#screen {
+  width: 63%;
+  position: absolute;
+  top: 6%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+/*! Accordion styles */
+.faq-accordion-container {
+  padding-top: 50px;
+  padding-bottom: 5rem;
+}
+
+.faq-accordion {
+  display: block;
+  border: 2px solid black;
+  padding: 0 1.75rem;
+  margin-bottom: 30px;
+}
+
+.faq-accordion:hover {
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
+}
+
+.faq-accordion h6 a.question {
+  position: relative;
+  display: block;
+  height: 75px;
+  padding: 1.75rem 2.25rem 1.75rem 0;
+  font-weight: 700;
+  color: rgb(77, 168, 182);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.faq-accordion h6 img {
+  position: absolute;
+  top: .5rem;
+  right: 5%;
+  height: 75px;
+  max-height: 75px;
+  z-index: 1;
+}
+
+.faq-accordion h6 a.question:hover, .faq-accordion a.question, .faq-accordion a.question:hover {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.nedm-pricing p {
+  display: block; /* Fallback for non-webkit */
+  display: -webkit-box;
+  height: 170px;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nedm-pricing img.support-level {
+  position: absolute;
+  top: calc(5vh + 5px);
+  z-index: 10;
+}
+
+.nedm-pricing img.confirmation-level {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+
+@-webkit-keyframes dash-one {
+  to {
+    stroke-dashoffset: 500;
+  }
+}
+@keyframes dash-one {
+  to {
+    stroke-dashoffset: 500;
+  }
+}
+
+.path-one {
+  -webkit-animation: dash-one 90s linear infinite;
+  animation: dash-one 90s linear infinite;
+  stroke-dasharray: 1;
+}
+
+@-webkit-keyframes dash-three {
+  to {
+    stroke-dashoffset: 800;
+  }
+}
+@keyframes dash-three {
+  to {
+    stroke-dashoffset: 800;
+  }
+}
+
+.path-three {
+  -webkit-animation: dash-three 90s linear infinite;
+  animation: dash-three 90s linear infinite;
+  stroke-dasharray: 3;
+}
+
+@-webkit-keyframes dash-two {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+@keyframes dash-two {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+.path-two {
+  -webkit-animation: dash-two 90s linear infinite;
+  animation: dash-two 90s linear infinite;
+  stroke-dasharray: 2.5;
+}
+
+/*! BACKGROUND IMAGES */
+
+.container-fluid.white-bg, .white-bg {
+  background-color: rgb(255, 255, 255);
+}
+
+.container-fluid.gray-bg, .gray-bg {
+  background-color: rgb(245, 245, 245);
+}
+
+.container-fluid.nedm-bg, .nedm-bg  {
+  background-color: rgb(77, 168, 182);
+}
+
+.container-fluid.nedm-confirmed, .nedm-confirmed {
+  background: #4da8b6; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #4da8b6 1%, #295c64 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #4da8b6 1%,#295c64 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #4da8b6 1%,#295c64 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.container-fluid.nedm-dark-bg, .nedm-dark-bg {
+  background-color: rgb(41, 92, 100);
+}
+
+.container-fluid.nedm-header, .nedm-header {
+  background-color: rgb(77, 168, 182);
+  padding-top: 15.5%;
+  padding-bottom: 2.75rem;
+}
+
+.container-fluid.trackBg, .trackBg {
+  background-color: rgb(64, 85, 117);
+}
+
+.container-fluid.brochure {
+  padding: 5% 0 15% 0;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgb(255, 255, 255);
+}
+
+.container-fluid.brochure.leadership {
+  background-image: url('../images/Teq_Consulting_Services_leadership-brochure-bg.jpg');
+}
+
+.container-fluid.brochure.network {
+  background-image: url('../images/Teq_Consulting_Services_network-brochure-bg.jpg');
+}
+
+.container-fluid.brochure.stem {
+  background-image: url('../images/Teq_Consulting_Services_stem-brochure-bg.jpg');
+}
+
+.testimonial-clip {
+  background-image: url('../images/Consulting-Services_si_testimonial_clip.svg');
+  background-position: center top;
+}
+
+.testimonial-clip-bottom {
+  background-image: url('../images/Consulting-Services_si_testimonial_clip.svg');
+  background-position: center bottom;
+}
+
+.row.testimonial-clip, .row.testimonial-clip-bottom {
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.testimonial-clip p, .testimonial-clip-bottom p {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 0;
+}
+
+.testimonial-clip p {
+  padding-top: 100px;
+}
+
+.testimonial-clip-bottom p {
+  padding-bottom: 175px;
+}
+
+/*! HUBSPOT FORM */
+
+input.hs-input, textarea.hs-input, select.hs-input {
+  height: 30px !important;
+  border-radius: 0 !important;
+}
+
+.modal-body .hs-form .hs-button {
+  width: 87% !important;
+  height: 30px !important;
+  background-image: none !important;
+  background-color: black !important;
+  border-radius: 0 !important;
+}
+
+footer {
+  position: relative;
+  z-index: 10;
+  padding: 3rem 0;
+  border-top: 4px solid #00b4e1;
+  background-color: rgba(30, 36, 40, 1);
+}
+
+footer h4, h6 {
+  margin-bottom: 1rem;
+}
+
+footer label {
+	position: absolute;
+	margin-left: -99999px;
+}
+
+footer ul.footerLinks, ul.footerLinks {
+  list-style: none;
+  padding-left: .8rem;
+  font-size: .8rem;
+}
+
+footer .hs-form.stacked .field {
+    margin-bottom: .1rem;
+}
+
+footer input[type='text'], footer input[type='email'], footer select.hs-input {
+  background-color: #4b5760;
+  height: 1.2rem;
+  border: none;
+  margin: 5px 0 10px 0;
+	padding: 7px;
+	font-size: 1.1em;
+	font-weight: 300;
+  color: #d2d4d4;
+}
+
+footer select.hs-input {
+  height: 2rem;
+}
+
+.hs-forms .actions {
+  margin-top: 0;
+}
+
+footer .hs-form .hs-button {
+  margin: -2rem 0rem;
+  outline: none;
+  background: #4b5760;
+  padding: 15px 35px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  font-weight: 400;
+  color: #eceeef;
+  box-shadow: none;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .hide-large {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .hide-small, div.top-header {
+    display: none !important;
+  }
+  .container-fluid.header-container div.card.vid-button {
+    height: auto;
+    width: 100%;
+    top: 0;
+    right: 0;
+    position: relative;
+    z-index: 10;
+  }
+  button.close {
+    margin-right: 0 !important;
+  }
+  .main-content, .parallax, .parallax-second, .parallax-third, .parallax-four, .parallax-five, .parallax-six {
+    transform: translate3d(0px, 0px, 0px) !important;
+    margin: 0 auto !important;
+  }
+}
