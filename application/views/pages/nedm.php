@@ -127,7 +127,8 @@
             </svg>
             <div class="card padding">
               <img src="public/images/network-enabled-support-level-1-text.svg" alt="" />
-              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+              <h5>(2 FULL Complimentary Consultation Hours)</h5>
+              <p>Connect with one of our NEDM experts to review your project. Understand the full capabilities of your classroom technology, and how to maximize their features and connect to student devices.</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -140,7 +141,8 @@
             </svg>
             <div class="card padding">
               <img src="public/images/network-enabled-support-level-2-text.svg" alt="" />
-              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+              <h5>(Remote/Onsite Solution Description – Hours and Cost)</h5>
+              <p>Evaluate how your current infrastructure will be impacted by adding hundreds of new devices. Receive a network evaluation along with recommendations on device management and security.</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -155,7 +157,8 @@
             </svg>
             <div class="card padding">
               <img src="public/images/network-enabled-support-level-3-text.svg" alt="" />
-              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+              <h5>(Full Solution Description – Cost Calculation)</h5>
+              <p>Receive a complete evaluation of your network as it relates to your new devices, any cloud applications, and digital content. Receive recommendations from our NEDM experts along with options for long-term visibility to your network performance.</p>
             </div>
           </div>
         </div>

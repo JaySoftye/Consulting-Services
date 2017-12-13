@@ -802,11 +802,7 @@ form#nedm-survey button#submit-survey:hover {
 .nedm-pricing p {
   display: block; /* Fallback for non-webkit */
   display: -webkit-box;
-  height: 170px;
-  -webkit-line-clamp: 7;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  height: 215px;
 }
 
 .nedm-pricing img.support-level {
