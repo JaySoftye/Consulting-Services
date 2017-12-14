@@ -138,24 +138,29 @@
     <div class="container-fluid white-bg padding">
       <div class="container">
         <div class="row">
-          <div class="col-md">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
             <div class="testimonial-clip row">
               <div class="col-md">
-                <p class="lead">"I would say that our biggest advantage right now is that we’re able to provide our customers with the support they need to succeed with STEM Education at any point in their curriculum build."</p>
+                <p class="lead">"Teachers are seeing how Teq is introducing the product… Once the teachers see the how-to, they’re going to just jump right in. And if they have support with them they’ll make them that more efficient. It’s a win win."</p>
               </div>
             </div>
             <div class="testimonial-clip-bottom row">
               <div class="col-md">
-                <p><strong>- Dr. Timothy Eagen, Superintendent of Schools -</strong></p>
+                <p><strong>- Dr. Timothy Eagen; Superintendent of Kings Park Schools, NY</strong></p>
               </div>
             </div>
           </div>
+          <div class="col-md-2"></div>
         </div>
         <div class="row padding-bottom">
           <div class="col-sm-3"></div>
           <div class="col-sm-6 col-padding">
-            <div class="card">
-              <script src="https://fast.wistia.com/embed/medias/qr4p0hi1op.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_qr4p0hi1op popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span></div></div>
+            <div class="card vid-button">
+              <a href="http://www.teq.com/testimonials/customer-success-stories/kings-park/">
+                <img src="public/images/Consulting-Services_si_bio_clip_MASK.svg" class="bio-play" />
+              </a>
+              <img src="public/images/consulting-services-si-kings-park-gif.gif" class="modal-content" alt="Kings Park Schools" />
             </div>
           </div>
           <div class="col-sm-3"></div>

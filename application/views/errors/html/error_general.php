@@ -57,8 +57,8 @@ p {
 </head>
 <body>
 	<div id="container">
-		<h1><?php echo $heading; ?></h1>
-		<?php echo $message; ?>
+		<h1><img src="public/images/404-errorgif.gif" /> <?php echo $heading; ?></h1>
+		<p>Ah ah ah, you didn't say the magic word or The page you requested was not found.</p>
 	</div>
 </body>
 </html>
