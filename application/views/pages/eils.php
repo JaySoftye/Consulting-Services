@@ -40,7 +40,7 @@
           <h5>External accountability, legislative reform, local mandates, and the day-to-day challenges of running a school constantly influence the focus of Educational Leadership. </h5>
         </div>
         <div class="card vid-button">
-          <script src="https://fast.wistia.com/embed/medias/q58yenr88m.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_q58yenr88m popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span></div></div>
+          <script src="https://fast.wistia.com/embed/medias/fezs6lv0zx.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_fezs6lv0zx popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:203px;width:auto;">&nbsp;</span>
         </div>
       </div>
     </div>
@@ -76,7 +76,7 @@
               <div class="card leadership-course">
                 <div class="card-header"><img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /><span></span></div>
                 <div class="card-body">
-                  <h2><strong>Leadership Practices</strong></h2>
+                  <h4><strong>Leadership Practices</strong></h4>
                   <p>Key leadership responsibilities related to improved student achievement.</p>
                   <button class="play-button">Play Video</button>
                 </div>
@@ -86,8 +86,8 @@
               <div class="card leadership-course">
                 <div class="card-header"><img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /><span></span></div>
                 <div class="card-body">
-                  <h2><strong>Organizational Improvement Strategies</strong></h2>
-                  <p>Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities.</p>
+                  <h4><strong>Organizational Improvement Strategies</strong></h4>
+                  <p>Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities.</p>
                   <button class="play-button">Play Video</button>
                 </div>
               </div>
@@ -97,7 +97,7 @@
       </div>
     </div>
 
-    <div class="container-fluid trackBg padding-top parallax">
+    <div class="container-fluid padding-top parallax">
       <div class="row">
         <div class="container">
           <div class="row">
@@ -113,6 +113,24 @@
               <img id="screen" src="public/images/ConsultingServices_OPD-Screenshot-gif.gif" alt="" />
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid  gray-bg padding-bottom padding-top">
+      <div class="container">
+        <div class="row padding">
+          <div class="col-md-2"></div>
+          <div class="col-md">
+            <h2 class="text-center"><strong>Not your typical consultant.</strong></h2>
+            <div class="card">
+              <script src="https://fast.wistia.com/embed/medias/eh5elwc2h8.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_eh5elwc2h8 popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span></div></div>
+              <article class="padding">
+                <p><strong>Robert-Wayne Harris</strong> is the <em>Chief Learning Officer</em> for Teq. Starting out as a classroom social studies teacher for both middle and high schools, Robert-Wayne has well over 6 years of experience as an educational adminstrator, which eventually landed him the role of Superintendent of schools in New York. He brings a unique level of experience having proven success on both the administrative and teaching sides of the educational process.</p>
+              </article>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
         </div>
       </div>
     </div>

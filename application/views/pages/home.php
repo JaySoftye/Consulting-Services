@@ -48,8 +48,7 @@
           <h4 class="small-heading">Guidance for school leaders and administrators presented in a video format.</h4>
         </article>
         <div class="card vid-button">
-          <img src="public/images/Teq_Consulting_Services_play_icon.png" class="video-play" />
-          <img src="public/images/Teq_Consulting_Services_leadership-intro-vid.jpg" class="full" alt="Teq Consulting Services" />
+          <script src="https://fast.wistia.com/embed/medias/fezs6lv0zx.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_fezs6lv0zx popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:203px;width:auto;">&nbsp;</span>
         </div>
         <a href="/consulting-services/eils"><button class="button leadership-button">Learn more</button></a>
       </div>

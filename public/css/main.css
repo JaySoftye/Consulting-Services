@@ -39,6 +39,10 @@ h1 {
   margin-bottom: 0 !important;
 }
 
+h2 {
+  margin-bottom: 1rem !important;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300 !important;
 }
@@ -624,11 +628,12 @@ form#nedm-survey button#submit-survey:hover {
 }
 
 .card.leadership-course, .card.nedm-course, .card.stem-course {
-  margin-top: 5rem;
+  height: 90%;
+  margin-top: 10%;
 }
 
-.card.leadership-course h2 strong, .card.nedm-course h2 strong, .card.stem-course h2 strong {
-  min-height: 100px;
+.card.leadership-course h4 strong, .card.nedm-course h4 strong, .card.stem-course h4 strong {
+  min-height: 75px;
   display: block;
 }
 

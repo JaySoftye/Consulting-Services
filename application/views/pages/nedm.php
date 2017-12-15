@@ -186,7 +186,7 @@
       </div>
     </div>
 
-    <div class="container-fluid white-bg padding-bottom parallax">
+    <div class="container-fluid white-bg padding-bottom">
       <div class="container">
       <div class="row">
         <div class="col-md">
