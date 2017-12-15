@@ -40,8 +40,7 @@
           <h5>External accountability, legislative reform, local mandates, and the day-to-day challenges of running a school constantly influence the focus of Educational Leadership. </h5>
         </div>
         <div class="card vid-button">
-          <img src="public/images/Teq_Consulting_Services_play_icon.png" class="video-play" />
-          <img src="public/images/Teq_Consulting_Services_leadership-intro-vid.jpg" class="full" alt="Teq Consulting Services" />
+          <script src="https://fast.wistia.com/embed/medias/q58yenr88m.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_q58yenr88m popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span></div></div>
         </div>
       </div>
     </div>

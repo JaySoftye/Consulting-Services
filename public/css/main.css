@@ -434,7 +434,7 @@ li.nav-item a.nav-link:focus {
   height: auto;
   width: 20%;
   position: absolute;
-  top: 45%;
+  top: 38%;
   right: 10%;
   z-index: 10;
 }
@@ -635,7 +635,7 @@ form#nedm-survey button#submit-survey:hover {
 .card.leadership-course p, .card.nedm-course p, .card.stem-course p {
   display: block; /* Fallback for non-webkit */
   display: -webkit-box;
-  height: 50px;
+  height: 75px;
   -webkit-line-clamp: 7;
   -webkit-box-orient: vertical;
   overflow: hidden;

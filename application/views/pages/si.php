@@ -40,8 +40,7 @@
           <h5>While some schools will already have very clear goals for the STEM programs in place – built around long-term plans focused on student outcomes, others are still exploring options and may need guidance with designing a program that will provide their students with sequences in Science, Technology, Engineering, and Math that build upon each other.</h5>
         </div>
         <div class="card vid-button">
-          <img src="public/images/Teq_Consulting_Services_play_icon.png" class="video-play" />
-          <img src="public/images/Teq_Consulting_Services_stem-intro-vid.jpg" class="full" alt="Teq Consulting Services" />
+          <script src="https://fast.wistia.com/embed/medias/q58yenr88m.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_q58yenr88m popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:203px;width:auto;">&nbsp;</span>
         </div>
       </div>
     </div>
@@ -77,8 +76,8 @@
               <div class="card stem-course">
                 <div class="card-header"><img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /><span></span></div>
                 <div class="card-body">
-                  <h2><strong>Set Goals</strong></h2>
-                  <p>Turn your STEM vision into a true interdisciplinary approach to learning, where STEM concepts are coupled with real-world lessons and applications.</p>
+                  <h2><strong>Engaging Learners in a New STEM Experience</strong></h2>
+                  <p>The Cura 2.4 Software by Ultimaker has over 200 settings to adjust your 3D print to fit your needs. Join us as we show you where to download the software and some specific details of how to optimize...</p>
                   <button class="play-button">Play Video</button>
                 </div>
               </div>
@@ -87,8 +86,8 @@
               <div class="card stem-course">
                 <div class="card-header"><img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /><span></span></div>
                 <div class="card-body">
-                  <h2><strong>Curriculum Design</strong></h2>
-                  <p>Design a program that will provide teachers and students with sequences in STEM that will emphasize the development of 21st century skills.</p>
+                  <h2><strong>Building a Digital Portfolio for a Future in Computer Science</strong></h2>
+                  <p>It is difficult to confidently map out what a typical computer science degree contains because of how much rapid growth has occurred in the field in the past 10 years alone. Due to this portfolios are...</p>
                   <button class="play-button">Play Video</button>
                 </div>
               </div>
@@ -126,10 +125,10 @@
           <div class="col-md-2"></div>
           <div class="col-md text-center">
             <div class="card vid-button">
-              <img src="public/images/Consulting-Services_si_bio_clip_MASK.svg" class="bio-play" />
-              <img src="public/images/Consulting-Services_si_bio_clip.gif" class="full" alt="Teq Consulting Services" />
+              <script src="https://fast.wistia.com/embed/medias/qjzrxd9yqt.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_qjzrxd9yqt popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%"></span></div></div>
             </div>
-            <p class="padding">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis pharetra purus, eu elementum lorem. Curabitur non risus nec neque varius sagittis non id urna. Donec dignissim tellus mauris, sed vestibulum arcu ultricies et. Praesent fringilla arcu nunc, sed efficitur leo rhoncus vel. Nullam quis bibendum enim.</p>
+            <h6><strong>Andrew Grefig</strong>, <em>Director of Curriculum and Content</em></h6>
+            <h5>"STEM is really about changing the way that we taught those make up subjects to a way that isn't just being siloed. We don't just do science in the science room any more."</h5>
           </div>
           <div class="col-md-2"></div>
         </div>
@@ -142,7 +141,7 @@
           <div class="col-md-8">
             <div class="testimonial-clip row">
               <div class="col-md">
-                <p class="lead">"Teachers are seeing how Teq is introducing the product… Once the teachers see the how-to, they’re going to just jump right in. And if they have support with them they’ll make them that more efficient. It’s a win win."</p>
+                <p class="lead">"Teachers are seeing how Teq is introducing the product… Once the teachers see the how-to, they’re going to just jump right in. And if they have the support with them that'll make them that more efficient. It’s a win win."</p>
               </div>
             </div>
             <div class="testimonial-clip-bottom row">
