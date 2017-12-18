@@ -46,7 +46,7 @@
     </div>
   </div>
 
-  <section class="main-content">
+  <section>
 
     <div class="container-fluid brochure network parallax-second">
       <div class="container">
@@ -54,7 +54,7 @@
           <div class="col-md-6">
             <h3><strong>Network-Enabled Heading Here</strong></h3>
             <h5>Take a proactive approach to your technology initiatives, and set your school up for success by removing the limitations of your network before a school-wide device rollout. Learn what policies and process should be put in place to secure your network- enabled devices, including your IFPs, which now come with an on-board computer and web browser.</h5><h5>Get access to specialized networking tools to determine the impact of these devices, and their software, will have on your performance.</h5>
-            <p><button type="button" class="button nedm-button" data-toggle="modal" data-target="#brochureform">Request a brochure</button></p>
+            <p><button type="button" class="button" data-toggle="modal" data-target="#brochureform">Request a brochure</button></p>
           </div>
         </div>
       </div>
@@ -62,7 +62,7 @@
 
     <div class="container-fluid nedm-dark-bg padding-bottom parallax-third">
       <div class="row">
-        <div class="container padding-top">
+        <div class="container padding-top padding-bottom">
           <a href="../nedm-survey/"><button class="button light">Start Your Network Survey Today</button></a>
           <h4 class="white"><strong>This is how we can help you.</strong> Based upon your specific Network Infrastructure, Teq will provide a customized report on how to better utilize your educational technology at <strong>ZERO COST</strong>.<h3>
           <br />
@@ -71,35 +71,43 @@
       </div>
     </div>
 
-    <section class="trackBg">
-
     <div class="container-fluid white-bg padding-bottom parallax-four">
       <div class="row">
         <div class="container">
           <div class="row padding-top">
             <div class="col">
-              <h3><strong>Sample courses on Network-Enabled Device Management</strong></h3>
-              <p>Here you will find sample courseware we have created for network administrators, tech directors and other technology based roles. Take a proactive approach to your technology initiatives, and set your school up for success by removing the limitations of your network before a school-wide device rollout. Visit <a href="https://onlinepd.teq.com/getting-started"><strong>opd.teq.com/gettingstarted</strong></a> and sign up for a free basic account to access the rest of the courses.</p><p>Please feel free to contact us for more information at <a href="mailto:onlinepd@teq.com"><strong>onlinepd@teq.com</strong></a></p>
+              <h1 class="display-4">Let's start to put together a plan.</h1>
+              <p>Below will find a few <strong>complimentary sample courses</strong> we have created for network administrators, tech directors and other technology based roles. Take a proactive approach to your technology initiatives, and set your school up for success by removing the limitations of your network before a school-wide device rollout. Visit <a href="https://onlinepd.teq.com/getting-started"><strong>opd.teq.com/gettingstarted</strong></a> and sign up for a free basic account to access the rest of the courses.</p><p>Please feel free to contact us for more information at <a href="mailto:onlinepd@teq.com">onlinepd@teq.com</a></p>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-sm-padding col-md-4">
               <div class="card nedm-course">
                 <div class="card-header"><img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /><span></span></div>
                 <div class="card-body">
-                  <h2><strong>Best Practices</strong></h2>
+                  <h3><strong>Best Practices</strong></h3>
                   <p>Use industry best practices when adding and managing classroom technology on your network from both teachers and students.</p>
-                  <button class="play-button">Play Video</button>
+                  <button class="button nedm-button">Play Course »</button>
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-padding col-md-4">
               <div class="card nedm-course">
                 <div class="card-header"><img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /><span></span></div>
                 <div class="card-body">
-                  <h2><strong>Network Visibility</strong></h2>
+                  <h3><strong>Network Visibility</strong></h3>
                   <p>Get access to specialized networking tools to determine the impact of these devices, and their software, will have on your performance.</p>
-                  <button class="play-button">Play Video</button>
+                  <button class="button nedm-button">Play Course »</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-padding  col-md-4">
+              <div class="card nedm-course">
+                <div class="card-header"><img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /><span></span></div>
+                <div class="card-body">
+                  <h3><strong>Continue your learning track today.</strong></h3>
+                  <p>For more great courses on Administrator Leadership and Supervision visit <a href="https://onlinepd.teq.com/">opd.teq.com</a> and sign up today!</p>
+                  <a href="https://onlinepd.teq.com/getting-started"><button class="button nedm-button">More Courses +</button></a>
                 </div>
               </div>
             </div>
@@ -108,7 +116,9 @@
       </div>
     </div>
 
-    <div class="container-fluid nedm-bg padding-bottom parallax-five">
+    <section class="nedm-dark-bg">
+
+    <div class="container-fluid nedm-bg parallax-five">
       <div class="container">
         <div class="row padding-top">
           <div class="col-md">
@@ -164,29 +174,28 @@
       </div>
     </div>
 
-    </section>
-
-    <div class="container-fluid trackBg padding-top padding-bottom parallax-six">
-      <div class="row">
-        <div class="container">
-          <div class="row">
-            <div class="col-md text-center">
-              <h1 class="white"><strong>Continue your learning track today.</strong></h1>
-              <p class="white">For more great courses on Administrator Leadership and Supervision <br />visit <a class="white" href="https://onlinepd.teq.com/">opd.teq.com</a> and sign up today!</p>
-              <a href="https://onlinepd.teq.com/courses/category/id/44/events/Administrator"><button class="button opd">More Administrator Courses</button></a>
+    <div class="container-fluid nedm-dark-bg padding-top padding-bottom parallax-six">
+      <div class="container">
+        <div class="row padding">
+          <div class="col-md-1"></div>
+          <div class="col-md padding-bottom">
+            <h2 class="white text-center"><strong>Not your typical consultant.</strong></h2>
+            <div class="card">
+              <script src="https://fast.wistia.com/embed/medias/eh5elwc2h8.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_eh5elwc2h8 popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span></div></div>
+              <article class="padding">
+                <p><strong>Raymond Simpson</strong> is the <em>Senior Network Engineer</em> for Teq...He is good.</p>
+                <span class="nedm-icon"></span>
+              </article>
             </div>
           </div>
-          <div class="row opd-screen-shot">
-            <div class="col-md">
-              <img id="laptop" src="public/images/ConsultingServices_opd_laptop.svg" alt="" />
-              <img id="screen" src="public/images/ConsultingServices_OPD-Screenshot-gif.gif" alt="" />
-            </div>
-          </div>
+          <div class="col-md-1"></div>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid white-bg padding-bottom">
+    </section>
+
+    <div class="container-fluid white-bg padding-top padding-bottom parallax">
       <div class="container">
       <div class="row">
         <div class="col-md">

@@ -77,21 +77,21 @@ $(document).ready(function(){
             var currentElement = parallaxElementsFour.eq(i);
             var scrolled = $(window).scrollTop();
               currentElement.css({
-                'transform': 'translate3d(0,' + scrolled * -0.3 + 'px, 0)'
+                'transform': 'translate3d(0,' + scrolled * -0.25 + 'px, 0)'
               });
           }
           for (var i = 0; i < parallaxQuantityFive; i++) {
             var currentElement = parallaxElementsFive.eq(i);
             var scrolled = $(window).scrollTop();
               currentElement.css({
-                'transform': 'translate3d(0,' + scrolled * +0.1 + 'px, 0)'
+                'transform': 'translate3d(0,' + scrolled * +0.15 + 'px, 0)'
               });
           }
           for (var i = 0; i < parallaxQuantitySix; i++) {
             var currentElement = parallaxElementsSix.eq(i);
             var scrolled = $(window).scrollTop();
               currentElement.css({
-                'transform': 'translate3d(0,' + scrolled * -0.85 + 'px, 0)'
+                'transform': 'translate3d(0,' + scrolled * -0.65 + 'px, 0)'
               });
           }
         });

@@ -14,7 +14,7 @@
       </div>
       <div class="col-sm-8">
         <h2><strong>Known for high-quality professional development focused on integrating technology into curriculum,</strong></h2>
-        <h5>Teq redefined what is expected from technology PD as the first PD provider to offer administrators courses on how to identify the effective use of classroom echnology, and how to align instruction to standards with classroom technology tools.</h5>
+        <h5>Teq redefined what is expected from technology PD as the first PD provider to offer administrators courses on how to identify the effective use of classroom technology, and how to align instruction to standards with classroom technology tools.</h5>
       </div>
     </div>
   </section>

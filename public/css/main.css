@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6, p, small, blockquote, a, button {
 
 a, a:focus, a:hover, a:active {
   outline: 0;
+  text-decoration: none !important;
 }
 
 a img:hover, a img:focus, a img:active, .card.vid-button:hover {
@@ -47,9 +48,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300 !important;
 }
 
+h1.display-4 {
+  margin-bottom: 1.5rem !important;
+}
+
 .row {
   margin-left: 0;
   margin-right: 0;
+}
+
+.row .col-sm-padding {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
 }
 
 .row:after, .row:before {
@@ -62,9 +72,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .card, .card .card-header {
   border-radius: 0 !important;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(100,100,100,0.15);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(100,100,100,0.15);
+  box-shadow: 0px 0px 5px 0px rgba(100,100,100,0.15);
+}
+
+.card:hover {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
 }
 
 .modal-content {
@@ -256,52 +272,45 @@ button.button.block {
 }
 
 button.button.leadership-button {
+  background-color: rgb(153, 149, 214);
   border: 2px solid rgb(153, 149, 214);
-  color: rgb(153, 149, 214);
+  color: rgb(255, 255, 255);
 }
 
 button.button.leadership-button:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(153, 149, 214);
+  color: rgb(153, 149, 214);
+  background-color: transparent;
   -webkit-transition: background-color 0.4s ease-out;
   -moz-transition: background-color 0.4s ease-out;
   transition: background-color 0.4s ease-out;
 }
 
 button.button.nedm-button {
+  background-color: rgb(77, 168, 182);
   border: 2px solid rgb(77, 168, 182);
-  color: rgb(77, 168, 182);
+  color: rgb(255, 255, 255);
 }
 
 button.button.nedm-button:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(77, 168, 182);
+  color: rgb(77, 168, 182);
+  background-color: transparent;
   -webkit-transition: background-color 0.4s ease-out;
   -moz-transition: background-color 0.4s ease-out;
   transition: background-color 0.4s ease-out;
 }
 
 button.button.stem-button {
+  background-color: rgb(122, 198, 93);
   border: 2px solid rgb(122, 198, 93);
-  color: rgb(122, 198, 93);
+  color: rgb(255, 255, 255);
 }
 
 button.button.stem-button:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(122, 198, 93);
+  color: rgb(122, 198, 93);
+  background-color: transparent;
   -webkit-transition: background-color 0.4s ease-out;
   -moz-transition: background-color 0.4s ease-out;
   transition: background-color 0.4s ease-out;
-}
-
-button.play-button {
-  outline: none;
-  border: none;
-  padding: .75rem 3.75rem .75rem .75rem;
-  background-color: transparent;
-  font-weight: 700;
-  font-size: 1.25rem;
-  position: relative;
 }
 
 /*! Nav styles */
@@ -632,16 +641,16 @@ form#nedm-survey button#submit-survey:hover {
   margin-top: 10%;
 }
 
-.card.leadership-course h4 strong, .card.nedm-course h4 strong, .card.stem-course h4 strong {
-  min-height: 75px;
+.card.leadership-course h3 strong, .card.nedm-course h3 strong, .card.stem-course h3 strong {
+  min-height: 100px;
   display: block;
 }
 
 .card.leadership-course p, .card.nedm-course p, .card.stem-course p {
   display: block; /* Fallback for non-webkit */
   display: -webkit-box;
-  height: 75px;
-  -webkit-line-clamp: 7;
+  height: 145px;
+  -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -651,79 +660,42 @@ form#nedm-survey button#submit-survey:hover {
   background-color: rgb(153, 149, 214);
 }
 
-.card.leadership-course .card-header span {
+span.leadership-icon {
   width: 175px;
   height: 125px;
   position: absolute;
-  top: -30px;
-  right: -10px;
+  right: 36%;
   background-image: url('../images/ConsultingServices_leadership-icon.svg');
   background-repeat: no-repeat;
   background-position: center top;
-}
-
-.card.leadership-course button.play-button {
-  margin: 1.5rem;
-  color: rgb(153, 149, 214);
-  background-image: url('../images/Teq_Consulting_Services_leadership-play_icon.jpg');
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: contain;
-  cursor: pointer;
 }
 
 .card.nedm-course .card-header {
   background-color: rgb(77, 168, 182);
 }
 
-.card.nedm-course .card-header span {
+span.nedm-icon {
   width: 175px;
   height: 125px;
   position: absolute;
-  top: -30px;
-  right: -10px;
+  right: 36%;
   background-image: url('../images/ConsultingServices_network-enabled-icon.svg');
   background-repeat: no-repeat;
   background-position: center top;
-}
-
-.card.nedm-course button.play-button {
-  margin: 1.5rem;
-  color: rgb(77, 168, 182);
-  background-image: url('../images/Teq_Consulting_Services_network-play_icon.jpg');
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: contain;
-  cursor: pointer;
 }
 
 .card.stem-course .card-header {
   background-color: rgb(122, 198, 93);
 }
 
-.card.stem-course .card-header span {
+span.stem-icon {
   width: 175px;
   height: 125px;
   position: absolute;
-  top: -30px;
-  right: -10px;
+  right: 36%;
   background-image: url('../images/ConsultingServices_stem-icon.svg');
   background-repeat: no-repeat;
   background-position: center top;
-}
-
-.card.stem-course button.play-button {
-  margin: 1.5rem;
-  color: rgb(122, 198, 93);
-  background-image: url('../images/Teq_Consulting_Services_stem-play_icon.jpg');
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: contain;
-  cursor: pointer;
-}
-
-.card.leadership-course button.play-button:hover, .card.nedm-course button.play-button:hover, .card.stem-course button.play-button:hover {
-  opacity: 0.65;
 }
 
 .nedm-data-container .nedm-data {
@@ -742,22 +714,6 @@ form#nedm-survey button#submit-survey:hover {
   -webkit-transition: background-color 0.2s ease-out;
   -moz-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
-}
-
-.opd-screen-shot img#laptop {
-  position: relative;
-  z-index: 10;
-}
-
-.opd-screen-shot img#screen {
-  width: 63%;
-  position: absolute;
-  top: 6%;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  z-index: 1;
 }
 
 /*! Accordion styles */
@@ -884,8 +840,25 @@ form#nedm-survey button#submit-survey:hover {
   background-color: rgb(245, 245, 245);
 }
 
+.container-fluid.eils-bg, .eils-bg  {
+  background: #9995d6; /* Old browsers */
+  background: -moz-linear-gradient(#9995d6 36%, #605e88 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(#9995d6 36%,#605e88 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(#9995d6 36%,#605e88 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.container-fluid.si-bg, .si-bg  {
+  background: #7AC65D; /* Old browsers */
+  background: -moz-linear-gradient(#7AC65D 36%, #568a41 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(#7AC65D 36%,#568a41 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(#7AC65D 36%,#568a41 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
 .container-fluid.nedm-bg, .nedm-bg  {
-  background-color: rgb(77, 168, 182);
+  background: #4DA8B6; /* Old browsers */
+  background: -moz-linear-gradient(#4DA8B6 36%, #295C64 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(#4DA8B6 36%,#295C64 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(#4DA8B6 36%,#295C64 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .container-fluid.nedm-confirmed, .nedm-confirmed {
@@ -910,7 +883,7 @@ form#nedm-survey button#submit-survey:hover {
 }
 
 .container-fluid.brochure {
-  padding: 5% 0 15% 0;
+  padding: 5% 0 20% 0;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: contain;
