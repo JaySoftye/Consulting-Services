@@ -84,7 +84,7 @@ $(document).ready(function(){
             var currentElement = parallaxElementsFive.eq(i);
             var scrolled = $(window).scrollTop();
               currentElement.css({
-                'transform': 'translate3d(0,' + scrolled * +0.15 + 'px, 0)'
+                'transform': 'translate3d(0,' + scrolled * +0.1 + 'px, 0)'
               });
           }
           for (var i = 0; i < parallaxQuantitySix; i++) {

@@ -15,6 +15,7 @@ html {
 body {
   margin: 0 0 !important;
   padding: 0 0 !important;
+  line-height: 1.75rem;
   font-family:'Roboto',Helvetica,Arial,san-serif !important;
   background-color: rgb(255, 255, 255);
 }
@@ -52,6 +53,15 @@ h1.display-4 {
   margin-bottom: 1.5rem !important;
 }
 
+strong a {
+  font-weight: bold;
+  color: rgb(0, 0, 0) !important;
+}
+
+strong a:hover {
+  color: rgb(100, 100, 100) !important;
+}
+
 .row {
   margin-left: 0;
   margin-right: 0;
@@ -71,16 +81,27 @@ h1.display-4 {
 }
 
 .card, .card .card-header {
+  border: 0 !important;
   border-radius: 0 !important;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(100,100,100,0.15);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(100,100,100,0.15);
-  box-shadow: 0px 0px 5px 0px rgba(100,100,100,0.15);
+}
+
+.card {
+  -webkit-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.15);
+  box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.15);
 }
 
 .card:hover {
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.35);
+  -webkit-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.15);
+  box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.15);
+  -webkit-transition: -webkit-box-shadow 0.2s ease-out;
+  -moz-transition: -moz-box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
+}
+
+.card .card-body {
+  padding: 2rem !important;
 }
 
 .modal-content {
@@ -190,27 +211,6 @@ img.full {
 
 .small-heading {
   font-size: 125%;
-  margin-bottom: 2.5rem;
-}
-
-button.button.opd  {
-  display: block;
-  margin: 2rem auto !important;
-  outline: none;
-  background: rgb(255, 255, 255);
-  padding: 15px 30px;
-  border: none;
-  border-radius: 5px !important;
-  -moz-border-radius: 5px !important;
-  -webkit-border-radius: 5px !important;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
-  color: black;
-  font-weight: 400;
-  position: relative;
-  cursor: pointer;
-  z-index: 1;
 }
 
 button.button.light  {
@@ -265,11 +265,31 @@ button.button:hover, button.button.sm:hover {
   transition: background-color 0.4s ease-out;
 }
 
-button.button.block {
-  width: 100%;
-  display: block;
-  margin: 1rem auto !important;
+button.button.black {
+  display: inline-block;
+  background: black;
+  border: none;
+  color: white;
 }
+
+button.button.black:hover {
+  background-color: rgb(100, 100, 100);
+}
+
+button.button.white-fill {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+button.button.white-fill:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  -webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out;
+}
+
 
 button.button.leadership-button {
   background-color: rgb(153, 149, 214);
@@ -407,18 +427,21 @@ li.nav-item a.nav-link:focus {
 .container-fluid.header-container .header-logo {
   position: relative;
   z-index: 10;
-  padding-top: 15%;
+  padding-top: 10%;
+  background-color: transparent;
+  background-image: url('../images/top-header-white-gradient-mask.png');
+  background-size: contain;
+}
+
+.container-fluid.header-container div.top-header {
+
 }
 
 .container-fluid.header-container div.mask {
   width: 100%;
-  height: 33%;
   position: relative;
-  z-index: 10;
-  padding-bottom: 2.25rem;
+  z-index: 20;
   margin: 0 auto;
-  background-image: url('../images/top-header-white-gradient-mask.png');
-  background-size: contain;
 }
 
 .container-fluid.header-container div.video-mask {
@@ -452,22 +475,30 @@ li.nav-item a.nav-link:focus {
   z-index: 10;
 }
 
-.card img.video-play {
-  width: 30%;
-  position: absolute;
-  z-index: 10;
-  right: 25%;
-  top: 15%;
+.mask div.consulting-services-intro-container {
+  overflow: hidden;
 }
 
-.card img.bio-play {
+.mask div.consulting-services-intro-container video {
   width: 100%;
   position: absolute;
   z-index: 10;
-  top: 8%;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  opacity: 1;
+}
+
+.mask div.consulting-services-intro-container .consulting-services-intro-content {
+  position: relative;
+  z-index: 100;
+  padding: 0 0;
+}
+
+div.consulting-services-intro-content div.consulting-services-intro {
+  padding: 5rem 5rem 5rem 20rem;
+  background-image: url('../images/consulting-services-intro-mask.svg');
+  background-size: cover;
+  background-color: transparent;
 }
 
 .container-fluid.last-section {
@@ -519,7 +550,8 @@ li.nav-item a.nav-link:focus {
 }
 
 .home-col-sections {
-  min-height: 12.5rem;
+  min-height: 15rem;
+  padding-top: 15px;
 }
 
 form#nedm-survey {
@@ -632,8 +664,53 @@ form#nedm-survey button#submit-survey:hover {
   transition: background-color 0.4s ease-out;
 }
 
-.card.vid-button {
-  cursor: pointer;
+.bio-container {
+  height: 87%;
+}
+
+.bio-container div.bio-bg {
+  height: 100%;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  -webkit-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.15);
+  box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.15);
+}
+
+.bio-container div.bio-bg video {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.bio-container .bio-content {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  padding: 5rem;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.bio-container .bio-content .content {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  right: 10%;
+  z-index: 500;
+}
+
+.card.vid-button img.bio-play {
+  position: absolute;
+  top: 10%;
+  z-index: 20;
 }
 
 .card.leadership-course, .card.nedm-course, .card.stem-course {
@@ -656,43 +733,34 @@ form#nedm-survey button#submit-survey:hover {
   text-overflow: ellipsis;
 }
 
-.card.leadership-course .card-header {
-  background-color: rgb(153, 149, 214);
-}
-
 span.leadership-icon {
-  width: 175px;
+  width: 145px;
   height: 125px;
   position: absolute;
-  right: 36%;
+  top: -25px;
+  right: -20px;
   background-image: url('../images/ConsultingServices_leadership-icon.svg');
   background-repeat: no-repeat;
   background-position: center top;
 }
 
-.card.nedm-course .card-header {
-  background-color: rgb(77, 168, 182);
-}
-
 span.nedm-icon {
-  width: 175px;
+  width: 145px;
   height: 125px;
   position: absolute;
-  right: 36%;
+  top: -25px;
+  right: -20px;
   background-image: url('../images/ConsultingServices_network-enabled-icon.svg');
   background-repeat: no-repeat;
   background-position: center top;
 }
 
-.card.stem-course .card-header {
-  background-color: rgb(122, 198, 93);
-}
-
 span.stem-icon {
-  width: 175px;
+  width: 145px;
   height: 125px;
   position: absolute;
-  right: 36%;
+  top: -25px;
+  right: -20px;
   background-image: url('../images/ConsultingServices_stem-icon.svg');
   background-repeat: no-repeat;
   background-position: center top;
@@ -840,25 +908,29 @@ span.stem-icon {
   background-color: rgb(245, 245, 245);
 }
 
-.container-fluid.eils-bg, .eils-bg  {
-  background: #9995d6; /* Old browsers */
-  background: -moz-linear-gradient(#9995d6 36%, #605e88 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(#9995d6 36%,#605e88 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(#9995d6 36%,#605e88 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+.container-fluid.gradient-bg, .gradient-bg {
+  background: rgb(245,245,245);
+  background: -moz-linear-gradient(45deg, rgba(185,185,185,1) 0%, rgba(245,245,245,1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(185,185,185,1) 0%,rgba(245,245,245,1) 100%);
+  background: linear-gradient(45deg, rgba(185,185,185,1) 0%,rgba(245,245,245,1) 100%);
 }
 
-.container-fluid.si-bg, .si-bg  {
-  background: #7AC65D; /* Old browsers */
-  background: -moz-linear-gradient(#7AC65D 36%, #568a41 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(#7AC65D 36%,#568a41 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(#7AC65D 36%,#568a41 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+.container.feather-bg {
+  background-image: url('../images/mask-feather-background.svg');
+  background-size: cover;
+  background-color: transparent;
 }
 
-.container-fluid.nedm-bg, .nedm-bg  {
-  background: #4DA8B6; /* Old browsers */
-  background: -moz-linear-gradient(#4DA8B6 36%, #295C64 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(#4DA8B6 36%,#295C64 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(#4DA8B6 36%,#295C64 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+.container-fluid.eils-bg, .eils-bg, .leadership-bg {
+  background: #9995d6 !important;
+}
+
+.container-fluid.si-bg, .si-bg, .stem-bg  {
+  background: #7AC65D !important;
+}
+
+.container-fluid.nedm-bg, .nedm-bg, .network-bg {
+  background: #4DA8B6 !important;
 }
 
 .container-fluid.nedm-confirmed, .nedm-confirmed {
@@ -876,10 +948,6 @@ span.stem-icon {
   background-color: rgb(77, 168, 182);
   padding-top: 15.5%;
   padding-bottom: 2.75rem;
-}
-
-.container-fluid.trackBg, .trackBg {
-  background-color: rgb(64, 85, 117);
 }
 
 .container-fluid.brochure {
@@ -1021,7 +1089,11 @@ footer .hs-form .hs-button {
   .hide-small, div.top-header {
     display: none !important;
   }
-  .container-fluid.header-container div.card.vid-button {
+  .padding-left, .padding-right, .bio-container .bio-content {
+    padding: 0 15px !important;
+    position: relative;
+  }
+  .container-fluid.header-container div.card.vid-button, .mask div.consulting-services-intro-container video  {
     height: auto;
     width: 100%;
     top: 0;
@@ -1032,8 +1104,21 @@ footer .hs-form .hs-button {
   button.close {
     margin-right: 0 !important;
   }
+  div.consulting-services-intro-content div.consulting-services-intro {
+    background-image: none;
+    padding: 0 5rem;
+  }
   .main-content, .parallax, .parallax-second, .parallax-third, .parallax-four, .parallax-five, .parallax-six {
     transform: translate3d(0px, 0px, 0px) !important;
     margin: 0 auto !important;
+  }
+  .bio-container div.bio-bg, .bio-container {
+    height: auto;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  .bio-container .bio-content .content {
+    position: relative;
   }
 }

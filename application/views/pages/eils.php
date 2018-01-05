@@ -28,7 +28,7 @@
 
   <div class="container-fluid header-container">
     <div class="top-header">
-      <video poster="" playsinline autoplay muted loop>
+      <video poster="public/images/poster-header-image.jpg" playsinline autoplay muted loop>
         <source src="public/images/consulting-video-background.mp4" type="video/mp4" />
       </video>
     </div>
@@ -52,8 +52,8 @@
       <div class="container">
         <div class="row padding-top">
           <div class="col-md-6">
-            <h3><strong>Administrative Heading Here</strong></h3>
-            <h5>Teq’s Administrator Courses provide school leaders with strategies designed to enrich leadership and supervision practices, improve organizational performance, increase college and career readiness, and bolster student achievement.</h5>
+            <h3><strong>Teq professional development now includes courses for education leaders that focus on the day-to-day challenges of running a school.</strong></h3>
+            <h5>These courses can provide school leaders with strategies designed to enrich leadership and supervision practices, improve organizational performance, increase college and career readiness, and bolster student achievement.</h5>
             <p><button type="button" class="button" data-toggle="modal" data-target="#brochureform">Request a brochure</button></p>
           </div>
         </div>
@@ -72,33 +72,35 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-padding col-md-4">
+            <div class="col-md-4">
               <div class="card leadership-course">
-                <div class="card-header"><img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /></div>
+                <span class="leadership-icon"></span>
                 <div class="card-body">
-                  <h3><strong>Leadership Practices</strong></h3>
-                  <p>Key leadership responsibilities related to improved student achievement.</p>
-                  <button class="button leadership-button">Play Course »</button>
+                  <small>-</small>
+                  <h3><strong>Setting Goals and Expectations</strong></h3>
+                  <p>What is the importance of establishing clear and transparent (non-negotiable) goals and expectations? How can they be measured?</p>
+                  <script src="https://fast.wistia.com/embed/medias/quxz6tffz4.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_quxz6tffz4 popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline"><a href="#"><button class="button leadership-button">Play Course »</button></a></span>
                 </div>
               </div>
             </div>
-            <div class="col-sm-padding  col-md-4">
+            <div class="col-md-4">
               <div class="card leadership-course">
-                <div class="card-header"><img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /><span></span></div>
+                <span class="leadership-icon"></span>
                 <div class="card-body">
-                  <h3><strong>Organizational Improvement Strategies</strong></h3>
-                  <p>Aligning educational plans, goals, and priorities. Aligning educational plans, goals, and priorities.</p>
-                  <button class="button leadership-button">Play Course »</button>
+                  <small>-</small>
+                  <h3><strong>Training or Professional Development?</strong></h3>
+                  <p>What is the difference between training and professional development, and what is the role they play in improving the student and learning experience.</p>
+                  <script src="https://fast.wistia.com/embed/medias/1adu9qxd9i.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_1adu9qxd9i popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline"><a href="#"><button class="button leadership-button">Play Course »</button></a></span>
                 </div>
               </div>
             </div>
-            <div class="col-sm-padding  col-md-4">
-              <div class="card leadership-course">
-                <div class="card-header"><img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /><span></span></div>
+            <div class="col-md-4">
+              <div class="card leadership-course leadership-bg">
                 <div class="card-body">
-                  <h3><strong>Continue your learning track today.</strong></h3>
-                  <p>For more great courses on Administrator Leadership and Supervision visit <a href="https://onlinepd.teq.com/">opd.teq.com</a> and sign up today!</p>
-                  <a href="https://onlinepd.teq.com/courses/category/id/44/events/Administrator"><button class="button leadership-button">More Courses +</button></a>
+                  <small class="white">-</small>
+                  <h3 class="white"><strong>Continue your learning track today.</strong></h3>
+                  <p class="white">For more great courses on Administrative Leadership and Supervision visit <a href="https://onlinepd.teq.com/" class="white">opd.teq.com</a> and sign up today! <img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /></p>
+                  <a href="https://onlinepd.teq.com/courses/category/id/44/events/Administrator"><button class="button white-fill">More Courses +</button></a>
                 </div>
               </div>
             </div>
@@ -113,12 +115,21 @@
           <div class="col-md-1"></div>
           <div class="col-md">
             <h2 class="white text-center"><strong>Not your typical consultant.</strong></h2>
-            <div class="card">
-              <script src="https://fast.wistia.com/embed/medias/eh5elwc2h8.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_eh5elwc2h8 popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;</span></div></div>
-              <article class="padding">
-                <p><strong>Robert-Wayne Harris</strong> is the <em>Chief Learning Officer</em> for Teq. Starting out as a classroom social studies teacher for both middle and high schools, Robert-Wayne has well over 6 years of experience as an educational adminstrator, which eventually landed him the role of Superintendent of schools in New York. He brings a unique level of experience having proven success on both the administrative and teaching sides of the educational process.</p>
-                <span class="leadership-icon"></span>
-              </article>
+            <div class="bio-container">
+              <div class="bio-bg">
+                <video poster="public/images/eils-Robert-Wayne-Harris-Bio.jpg" playsinline autoplay muted loop>
+                  <source src="public/images/eils-Robert-Wayne-Harris-Bio.webm" type="video/webm" />
+                  <source src="public/images/eils-Robert-Wayne-Harris-Bio.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="bio-content text-center">
+                <div class="content">
+                <h6>Chief Learning Officer</h6>
+                <h2><strong>Robert-Wayne Harris</strong></h2>
+                <p>Starting out as a classroom social studies teacher for both middle and high schools, Robert-Wayne has had well over 6 years of experience as an educational adminstrator, which eventually landed him the role of Superintendent of schools in New York. He brings a unique level of expertise having proven success on both the administrative and teaching sides of the educational process.</p>
+                <script src="https://fast.wistia.com/embed/medias/eh5elwc2h8.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_eh5elwc2h8 popover=true popoverContent=link" style="display:inline"><a href="#"><button class="button leadership-button">View Bio</button></a></span>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-md-1"></div>

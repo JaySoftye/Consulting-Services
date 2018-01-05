@@ -28,7 +28,7 @@
 
   <div class="container-fluid header-container">
     <div class="top-header">
-      <video poster="" playsinline autoplay muted loop>
+      <video poster="public/images/poster-header-image.jpg" playsinline autoplay muted loop>
         <source src="public/images/consulting-video-background.mp4" type="video/mp4" />
       </video>
     </div>
@@ -37,7 +37,7 @@
         <h1 class="hide-small"><img src="public/images/Teq_Consulting_Services_stem-text.svg" class="full" alt="STEM Initiatives" /></h1>
         <div class="col padding-top hide-large">
           <h1 class="nedm-text">STEM Initiatives</h1>
-          <h5>While some schools will already have very clear goals for the STEM programs in place – built around long-term plans focused on student outcomes, others are still exploring options and may need guidance with designing a program that will provide their students with sequences in Science, Technology, Engineering, and Math that build upon each other.</h5>
+          <h5>While some schools already have clear goals for their STEM programs, others are still exploring their options, and may need guidance in how to design a program that will provide their students with logical STEM sequences that effectively scaffold learning.</h5>
         </div>
         <div class="card vid-button">
           <script src="https://fast.wistia.com/embed/medias/q58yenr88m.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_q58yenr88m popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:203px;width:auto;">&nbsp;</span>
@@ -52,8 +52,8 @@
       <div class="container">
         <div class="row padding-top">
           <div class="col-md-6">
-            <h3><strong>Curriculum designed to meet your goals.</strong></h3>
-            <h5>No matter the circumstance, when a school or district comes to us for ideas on how to enhance a STEM program, incorporate a new product, or/and need to see a full K12 vision, Teq has the resources, knowledge, and capability to support that effort.</h5><h5>Whether you’re far along in the process of building a comprehensive STEM program, or just starting out, we can help. Just about every school and district is unique, because almost everyone is in a different place.</h5>
+            <h3><strong>Teq’s STEM initiatives are curriculum consulting and onsite and online professional development services designed to assist schools in the creation, nurturing, and expansion of K12 STEM programs.</strong></h3>
+            <h5>Whether you are far along in the process of building a comprehensive STEM program, or just starting out, Teq can help. With Teq Online PD, you receive access to wide range of STEM courses for all educational roles.</h5>
             <p><button type="button" class="button" data-toggle="modal" data-target="#brochureform">Request a brochure</button></p>
           </div>
         </div>
@@ -72,33 +72,35 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-padding col-md-4">
+            <div class="col-md-4">
               <div class="card stem-course">
-                <div class="card-header"><img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /><span></span></div>
+                <span class="stem-icon"></span>
                 <div class="card-body">
-                  <h3><strong>Engaging Learners in a New STEM Experience</strong></h3>
-                  <p>The Cura 2.4 Software by Ultimaker has over 200 settings to adjust your 3D print to fit your needs. Join us as we show you where to download the software and some specific details of how to optimize...</p>
-                  <button class="button stem-button">Play Course »</button>
+                  <small>-</small>
+                  <h3><strong>Ultimaker: Optimizing Your 3D Print</strong></h3>
+                  <p>The Cura 2.4 Software by Ultimaker has over 200 settings to adjust your 3D print to fit your needs. Join us as we show you where to download the software and some specific details of how to optimize your 3D print like print setup, materials, and scaling.</p>
+                  <script src="https://fast.wistia.com/embed/medias/0dkknjolmj.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_0dkknjolmj popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline"><a href="#"><button class="button stem-button">Play Course »</button></a></span>
                 </div>
               </div>
             </div>
-            <div class="col-sm-padding col-md-4">
+            <div class="col-md-4">
               <div class="card stem-course">
-                <div class="card-header"><img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /><span></span></div>
+                <span class="stem-icon"></span>
                 <div class="card-body">
-                  <h3><strong>Building a Digital Portfolio for a Future in Computer Science</strong></h3>
-                  <p>It is difficult to confidently map out what a typical computer science degree contains because of how much rapid growth has occurred in the field in the past 10 years alone. Due to this portfolios are...</p>
-                  <button class="button stem-button">Play Course »</button>
+                  <small>-</small>
+                  <h3><strong>Labdisc: Heart Rate</strong></h3>
+                  <p>In this course we'll look at just one of the many applications of a Labdisc in the Biology classroom. You will need a BioChem Labdisc to perform this activity. Our Curriculum Specialists will show you how to conduct an experiment to measure heart rate using the heart rate sensor provided with your Labdisc. They will then show you how to analyze and manipulate the data within the Labdisc software.</p>
+                  <script src="https://fast.wistia.com/embed/medias/bgd9o4dk6u.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_bgd9o4dk6u popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline"><a href="#"><button class="button stem-button">Play Course »</button></a></span>
                 </div>
               </div>
             </div>
-            <div class="col-sm-padding  col-md-4">
-              <div class="card stem-course">
-                <div class="card-header"><img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /><span></span></div>
+            <div class="col-md-4">
+              <div class="card stem-course stem-bg">
                 <div class="card-body">
-                  <h3><strong>Continue your learning track today.</strong></h3>
-                  <p>For more great courses on Administrator Leadership and Supervision visit <a href="https://onlinepd.teq.com/">opd.teq.com</a> and sign up today!</p>
-                  <a href="https://onlinepd.teq.com/courses/category/id/44/events/STEM"><button class="button stem-button">More Courses +</button></a>
+                  <small class="white">-</small>
+                  <h3 class="white"><strong>Continue your learning track today.</strong></h3>
+                  <p class="white">For more great courses on STEM visit <a href="https://onlinepd.teq.com/" class="white">opd.teq.com</a> and sign up today! <img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /></p>
+                  <a href="https://onlinepd.teq.com/courses/category/id/44/events/STEM"><button class="button white-fill">More Courses +</button></a>
                 </div>
               </div>
             </div>
@@ -112,13 +114,22 @@
         <div class="row padding">
           <div class="col-md-1"></div>
           <div class="col-md">
-            <h2 class="display-4 white text-center"><strong>Not your typical consultant.</strong></h2>
-            <div class="card">
-              <script src="https://fast.wistia.com/embed/medias/qjzrxd9yqt.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_qjzrxd9yqt popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%"></span></div></div>
-              <article class="padding">
-                <p><strong>Andrew Grefig</strong> is the <em>Director of Curriculum and Content</em> for Teq. With a background in forensic chemistry, Andrew started his career by conducting water and other biological field tests after which spent numerous years as a high school chemistry. He is a veteran employee here at Teq with over 7 years experience as a STEM Curriculum and Professional Development Specialist.</p>
-                <span class="stem-icon"></span>
-              </article>
+            <h2 class="white text-center"><strong>Not your typical consultant.</strong></h2>
+            <div class="bio-container">
+              <div class="bio-bg">
+                <video poster="public/images/si-Andrew-Grefig-Bio.jpg" playsinline autoplay muted loop>
+                  <source src="public/images/si-Andrew-Grefig-Bio.webm" type="video/webm" />
+                  <source src="public/images/si-Andrew-Grefig-Bio.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="bio-content text-center">
+                <div class="content">
+                <h6>Director of Curriculum and Content</h6>
+                <h2><strong>Andrew Grefig</strong></h2>
+                <p>With a background in forensic chemistry, Andrew started his career by conducting water and other biological field tests after which spent numerous years as a high school chemistry. He is a veteran employee here at Teq with over 7 years experience as a STEM Curriculum and Professional Development Specialist.</p>
+                <script src="https://fast.wistia.com/embed/medias/eh5elwc2h8.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_eh5elwc2h8 popover=true popoverContent=link" style="display:inline"><a href="#"><button class="button stem-button">View Bio</button></a></span>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-md-1"></div>
