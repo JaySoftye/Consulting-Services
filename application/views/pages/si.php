@@ -126,7 +126,7 @@
                 <div class="content">
                 <h6>Director of Curriculum and Content</h6>
                 <h2><strong>Andrew Grefig</strong></h2>
-                <p>With a background in forensic chemistry, Andrew started his career by conducting water and other biological field tests after which spent numerous years as a high school chemistry. He is a veteran employee here at Teq with over 7 years experience as a STEM Curriculum and Professional Development Specialist.</p>
+                <p>Andrew started his career by biological field tests as a forensic chemist, before becoming a high school chemistry teacher. He is a veteran employee at Teq, with over 7 years experience as a STEM Curriculum and Professional Development Specialist.</p>
                 <script src="https://fast.wistia.com/embed/medias/eh5elwc2h8.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_eh5elwc2h8 popover=true popoverContent=link" style="display:inline"><a href="#"><button class="button stem-button">View Bio</button></a></span>
                 </div>
               </div>

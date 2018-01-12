@@ -218,11 +218,11 @@
         <div class="col-md-6">
           <div class="faq-accordion">
             <h6>
-              <a class="question">Differentiate Communication and Transmission?</a>
-              <img src="public/images/network-enabled-faq-icon-default.svg" />
+              <a class="question">Is there anything my school can do ahead of time to be prepared to optimally use all the features and functionality of our new IFP?</a>
+              <img src="public/images/network-enabled-faq-icon-1.svg" />
             </h6>
             <div class="collapse" id="collapseOne">
-              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+              <p>Yes. Prior to installation of your new interactive flat panels, it helps to think of a few things that will ensure smooth deployment. For example, connecting your IFPs to a 5 Ghz 802.11ac network will yield the best results when performing functions that require consistent bandwidth and low latency. Screen duplication (I.E. Cast or AirPlay) is a very useful and commonly used feature which will benefit from having clients and IFP modules connected to the same physical wireless access point whenever possible and having all those devices be on the same VLAN/ Subnet.</p>
               <p class="lead text-right"><a class="question"><span>&times;</span></a></p>
             </div>
           </div>
@@ -230,11 +230,12 @@
         <div class="col-md-6">
           <div class="faq-accordion">
             <h6>
-              <a class="question">Define various types of internet connections?</a>
-              <img src="public/images/network-enabled-faq-icon-default.svg" />
+              <a class="question">Is there a URL whitelist and a list of network ports/ protocols that can be referenced?</a>
+              <img src="public/images/network-enabled-faq-icon-2.svg" />
             </h6>
             <div class="collapse" id="collapseTwo">
-              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+              <p>Yes, the following information can be found at: <a href="https://support.smarttech.com/docs/hardware/displays/smart-board-6000/en/installing-and-maintaining/configuring/connecting-to-a-network.cshtml">https://support.smarttech.com/docs/hardware/displays/smart-board-6000/en/installing-and-maintaining/configuring/connecting-to-a-network.cshtml</a></p>
+              <p>This includes a description of what port/ protocol is used for as well as which URLs are for connected services. </p>
               <p class="lead text-right"><a class="question"><span>&times;</span></a></p>
             </div>
           </div>
@@ -242,11 +243,12 @@
         <div class="col-md-6">
           <div class="faq-accordion">
             <h6>
-              <a class="question">Explain various types of networks based on their sizes?</a>
+              <a class="question">Is there a network impact associated with deploying many IFPs?</a>
               <img src="public/images/network-enabled-faq-icon-default.svg" />
             </h6>
             <div class="collapse" id="collapseThree">
-              <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+              <p>No, in most environments impact should be negligible. In specific cases, depending on customer equipment and network topology, below are some guidelines to follow:</p>
+              <p>Treat each IFP as a tablet or Chromebook, for example, in terms of possible bandwidth consumption. Given the nature of these types of devices, bandwidth profiles are usually limited to a few 100 KB to several MBs based on application. For additional reference material, please visit the following URL: <br /><a href="https://support.smarttech.com/docs/hardware/displays/smart-board-6000/en/installing-and-maintaining/configuring/connecting-to-a-network.cshtml">https://support.smarttech.com/docs/hardware/displays/smart-board-6000/en/installing-and-maintaining/configuring/connecting-to-a-network.cshtml</a></p>
               <p class="lead text-right"><a class="question"><span>&times;</span></a></p>
             </div>
           </div>
@@ -254,11 +256,23 @@
         <div class="col-md-6">
           <div class="faq-accordion">
             <h6>
-              <a class="question">Describe the layers of OSI model?</a>
-              <img src="public/images/network-enabled-faq-icon-default.svg" />
+              <a class="question">What is the potential security impact of deploying IFPs to the classroom? </a>
+              <img src="public/images/network-enabled-faq-icon-3.svg" />
             </h6>
             <div class="collapse" id="collapseFour">
-              <p>OSI model stands for Open System Interconnection It is a framework which guides the applications how they can communicate in a network.OSI model has seven layers:  Physical Layer, Data Link Layer, Network Layer, Transport Layer, Session Layer, Presentation Layer, and Application Layer. </p>
+              <p>Due to SMART IFP interactive modules being based on highly secured custom configured hardened operating systems, that only provide access to secure content, the security impact and risk exposure is minimal.  You can manage IFP content security by taking advantage of the ability to add your proxy server/content filter to the IFP’s wireless configuration.</p>
+            <p class="lead text-right"><a class="question"><span>&times;</span></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="faq-accordion">
+            <h6>
+              <a class="question">Is managing software and firmware updates across my IFPs difficult?</a>
+              <img src="public/images/network-enabled-faq-icon-4.svg" />
+            </h6>
+            <div class="collapse" id="collapseFive">
+              <p>Provided that the correct URLs are whitelisted on your network firewall or security appliance (please refer to question two), updates to both software and firmware components occur automatically and will have little to no impact on network performance. </p>
             <p class="lead text-right"><a class="question"><span>&times;</span></a></p>
             </div>
           </div>

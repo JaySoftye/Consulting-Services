@@ -13,8 +13,7 @@
         <h1><img src="public/images/Teq_Consulting_Services_logo.png" class="full" alt="Teq Consulting Services" /></h1>
       </div>
       <div class="col-md-8">
-        <h2>Known for high-quality professional development focused on integrating technology into curriculum,</h2>
-        <h6>Teq redefined what is expected from technology PD as the first PD provider to offer administrators courses on how to identify the effective use of classroom technology, and how to align instruction to standards with classroom technology tools. </h6>
+        <h1>Expert guidance to develop the people and programs you need to be successful in a 21st century learning environment.</h1>
       </div>
     </div>
   </section>
@@ -24,15 +23,15 @@
         <div class="row align-items-center consulting-services-intro-container">
           <div class="col-md nopadding">
             <video poster="public/images/consulting-services-intro-damian-ceo.jpg" playsinline autoplay muted loop>
-              <source src="public/images/consulting-services-intro-damian-ceo.webm" type="video/webm" />
+              <source src="public/images/consulting-services-intro-ceo.webm" type="video/webm" />
+              <source src="public/images/consulting-services-intro-ceo.mp4" type="video/mp4" />
             </video>
             <div class="container row consulting-services-intro-content">
-              <div class="col-md-3"></div>
               <div class="col-md-9 consulting-services-intro">
-                <h6>Now, Teq is once again responding to the needs of educational leaders with three new areas of consulting service.</h6>
-                <h3><strong><a href="/consulting-services/eils">Effective Instructional Leadership & Supervision,</a> <a href="/consulting-services/nedm">Network-Enabled Device Management,</a> and <a href="/consulting-services/si">STEM Initiatives</a></strong></h3>
+                <h5>Known for high-quality professional development focused on integrating technology into curriculum, Teq redefined what is expected from technology PD as the first PD provider to offer administrators courses on how to identify the effective use of classroom technology, and how to align instruction to standards with classroom technology tools.</h5>
                 <button class="button black">Learn more</button>
               </div>
+              <div class="col-md-3"></div>
             </div>
           </div>
         </div>
