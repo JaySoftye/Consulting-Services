@@ -67,8 +67,8 @@
         <div class="container">
           <div class="row padding-top">
             <div class="col">
-              <h1 class="display-4">Let's start to put together a plan.</h1>
-              <p>Below will find a few <strong>complimentary sample courses</strong> we have created for all educational roles. Whether you’re far along in the process of building a comprehensive STEM program, or just starting out, we can help. Just about every school and district is unique, because almost everyone is in a different place. For a full list of STEM Courses Visit: <a href="https://onlinepd.teq.com/courses/category/id/44/events/STEM"><strong>opd.teq.com</strong></a> to access the rest of the courses.<p>Please feel free to contact us for more information at <a href="mailto:onlinepd@teq.com">onlinepd@teq.com</a></p>
+              <h1 class="display-4">Start here.</h1>
+              <p>Below will find a few <strong>complimentary sample courses</strong> we have created for all educational roles. Whether you’re far along in the process of building a comprehensive STEM program, or just starting out, we can help. Just about every school and district is unique, because almost everyone is in a different place. For a full list of STEM Courses Visit: <a href="https://onlinepd.teq.com/courses/category/id/44/events/STEM"><strong>opd.teq.com</strong></a> to gain full access to our course library or <a href="mailto:onlinepd@teq.com"><strong>contact us</strong></a> for more information.</p>
             </div>
           </div>
           <div class="row">

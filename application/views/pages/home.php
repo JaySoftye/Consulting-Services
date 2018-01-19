@@ -4,21 +4,25 @@
   <div class="top-header">
     <div class="video-mask"></div>
     <video poster="public/images/poster-header-image.jpg" playsinline autoplay muted loop>
-      <source src="public/images/consulting-video-background.mp4" type="video/mp4" />
+      <source src="public/472734695.mp4" type="video/mp4" />
     </video>
   </div>
   <section class="padding-left padding-right header-logo parallax-first">
-    <div class="row padding align-items-center">
-      <div class="col-md-4">
+    <div class="row align-items-center">
+      <div class="col-md-4"></div>
+      <div class="col-md-5">
         <h1><img src="public/images/Teq_Consulting_Services_logo.png" class="full" alt="Teq Consulting Services" /></h1>
+        <span class="scroll-btn">
+          <span class="mouse">
+            <span></span>
+          </span>
+        </span>
       </div>
-      <div class="col-md-8">
-        <h1>Expert guidance to develop the people and programs you need to be successful in a 21st century learning environment.</h1>
-      </div>
+      <div class="col-md-3"></div>
     </div>
   </section>
   <div class="mask gradient-bg parallax-second">
-    <div class="container feather-bg padding-top padding-bottom">
+    <div class="container feather-bg">
       <div class="card">
         <div class="row align-items-center consulting-services-intro-container">
           <div class="col-md nopadding">
@@ -28,8 +32,10 @@
             </video>
             <div class="container row consulting-services-intro-content">
               <div class="col-md-9 consulting-services-intro">
-                <h5>Known for high-quality professional development focused on integrating technology into curriculum, Teq redefined what is expected from technology PD as the first PD provider to offer administrators courses on how to identify the effective use of classroom technology, and how to align instruction to standards with classroom technology tools.</h5>
-                <button class="button black">Learn more</button>
+                <h2>An introduction to Teq's 3 new areas of guidance and expertise.</h2>
+                <h1><img src="public/images/Consulting_Services_damain-scarfo-ceo-sig.jpg" /></h1>
+                <h6><strong>Damian Scarfo</strong><br /><em>Chief Executive officer, Teq</em></h6>
+                <script src="https://fast.wistia.com/embed/medias/awygchlow7.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_awygchlow7 popover=true popoverContent=link" style="display:inline"><button class="button black">Play Video</button></a></span>
               </div>
               <div class="col-md-3"></div>
             </div>
@@ -42,12 +48,12 @@
 
 <section class="container-fluid padding-top parallax-third">
   <div class="container">
-    <div class="row padding-top padding-bottom">
+    <div class="row padding-top">
       <div class="col-sm-4 col-padding">
         <img src="public/images/ConsultingServices_leadership-icon.svg" class="full padding-top" />
         <article class="home-col-sections">
           <h3 class="leadership-text"><strong>Effective Instructional Leadership & Supervision</strong></h3>
-          <h4 class="small-heading">Guidance for school leaders and administrators presented in a video format.</h4>
+          <p>Guidance for school leaders and administrators presented in a video format.</p>
         </article>
         <div class="card vid-button">
           <script src="https://fast.wistia.com/embed/medias/fezs6lv0zx.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_fezs6lv0zx popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:203px;width:auto;">&nbsp;</span>
@@ -58,7 +64,7 @@
         <img src="public/images/ConsultingServices_network-enabled-icon.svg" class="full padding-top" />
         <article class="home-col-sections">
           <h3 class="nedm-text"><strong>Network-Enabled Device Management</strong></h3>
-          <h4 class="small-heading">Expert analysis and advice on the impact devices have on your network presented in a video format.</h4>
+          <p>Expert analysis and advice on the impact devices have on your network presented in a video format.</p>
         </article>
         <div class="card vid-button">
           <script src="https://fast.wistia.com/embed/medias/fk1nyw3qxr.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_fk1nyw3qxr popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:203px;width:auto;">&nbsp;</span>
@@ -69,7 +75,7 @@
         <img src="public/images/ConsultingServices_stem-icon.svg" class="full padding-top" />
         <article class="home-col-sections">
           <h3 class="stem-text"><strong>STEM Initiative</strong></h3>
-          <h4 class="small-heading">Advice and assistance on creating custom STEM spaces and curriculum presented in a variety of formats.</h4>
+          <p>Advice and assistance on creating custom STEM spaces and curriculum presented in a variety of formats.</p>
         </article>
         <div class="card vid-button">
           <script src="https://fast.wistia.com/embed/medias/q58yenr88m.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_q58yenr88m popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:203px;width:auto;">&nbsp;</span>

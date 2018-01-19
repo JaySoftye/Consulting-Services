@@ -36,7 +36,7 @@
       <div class="col nopadding">
         <h1 class="hide-small"><img src="public/images/Teq_Consulting_Services_leadership-text.svg" class="full" alt="Effective Educational Leadership and Supervision" /></h1>
         <div class="col padding-top hide-large">
-          <h1 class="leadership-text">Effective Educational Leadership and Supervision</h1>
+          <h1 class="leadership-text">Effective Educational Leadership and Supervision Courses</h1>
           <h5>External accountability, legislative reform, local mandates, and the day-to-day challenges of running a school constantly influence the focus of Educational Leadership. </h5>
         </div>
         <div class="card vid-button">
@@ -52,7 +52,7 @@
       <div class="container">
         <div class="row padding-top">
           <div class="col-md-6">
-            <h3><strong>Teq professional development now includes courses for education leaders that focus on the day-to-day challenges of running a school.</strong></h3>
+            <h3><strong>Teq Online PD now includes courses on Effective Instructional Leadership and Supervision.</strong></h3>
             <h5>These courses can provide school leaders with strategies designed to enrich leadership and supervision practices, improve organizational performance, increase college and career readiness, and bolster student achievement.</h5>
             <p><button type="button" class="button" data-toggle="modal" data-target="#brochureform">Request a brochure</button></p>
           </div>
@@ -67,8 +67,8 @@
         <div class="container">
           <div class="row padding-top">
             <div class="col">
-              <h1 class="display-4">Let's start to put together a plan.</h1>
-              <p>Below will find a few <strong>complimentary sample courses</strong> we have created for superintendents, directors and other administrator roles. If you are looking to increase your level of competence and expertise in managing programs and processes, and in the supervision of teacher pedagogy, our Administrator Courses are for you. Visit <a href="https://onlinepd.teq.com/courses/category/id/44/events/Administrator"><strong>Onlinepd.teq.com</strong></a> to access the rest of the courses.</p><p>Please feel free to contact us for more information at <a href="mailto:onlinepd@teq.com">onlinepd@teq.com</a></p>
+              <h1 class="display-4">Start here.</h1>
+              <p>Below will find a few courses that are found on our subscription based Online Professional Development Platform. If you are looking to increase your level of competence and expertise in managing programs and processes, and in the supervision of teacher pedagogy, our Effective Instructional Leadership and Supervision Courses are for you. Visit <a href="https://onlinepd.teq.com/courses/category/id/44/events/Administrator"><strong>Onlinepd.teq.com</strong></a> to gain full access to our course library or <a href="mailto:onlinepd@teq.com"><strong>contact us</strong></a> for more information.</p>
             </div>
           </div>
           <div class="row">
@@ -99,7 +99,7 @@
                 <div class="card-body">
                   <small class="white">-</small>
                   <h3 class="white"><strong>Continue your learning track today.</strong></h3>
-                  <p class="white">For more great courses on Administrative Leadership and Supervision visit <a href="https://onlinepd.teq.com/" class="white">opd.teq.com</a> and sign up today! <img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /></p>
+                  <p class="white">For more great courses on Effective Instructional Leadership and Supervision visit <a href="https://onlinepd.teq.com/" class="white">opd.teq.com</a> and sign up today! <img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /></p>
                   <a href="https://onlinepd.teq.com/courses/category/id/44/events/Administrator"><button class="button white-fill">More Courses +</button></a>
                 </div>
               </div>

@@ -50,8 +50,8 @@
       <div class="container">
         <div class="row padding-top">
           <div class="col-md-6">
-            <h3><strong>Adding hundreds of student Chromebooks or tablets and classroom interactive displays will impact your network.</strong></h3>
-            <h5>Teq’s Network-Enabled Device Management (NEDM) Consulting lets you take a proactive approach to your technology initiatives, and set your school up for success by removing the limitations of your network before a school-wide device rollout. With this service, you will learn what policies and processes should be put in place to secure your network- enabled devices, including your new Interactive Flat Panel Displays (IFPs), which now come with an on-board computer and web browser.</h5>
+            <h3><strong>A comprehensive approach to managing the implementation of <em>Smart Devices.</em></strong></h3>
+            <h5>Teq’s Network-Enabled Device Management (NEDM) Consulting lets you take a proactive approach to your technology initiatives, and set your school up for success by removing the limitations of your network before a school-wide device rollout. With this service, you will learn what policies and processes should be put in place to secure your network- enabled devices, including your new Interactive Flat Panel Displays (IFPs).</h5>
             <p><button type="button" class="button" data-toggle="modal" data-target="#brochureform">Request a brochure</button></p>
           </div>
         </div>
@@ -60,24 +60,13 @@
 
     <section class="gray-bg">
 
-    <div class="container-fluid nedm-dark-bg padding-bottom parallax-third">
-      <div class="row">
-        <div class="container padding-top padding-bottom">
-          <a href="../nedm-survey/"><button class="button light">Start Your Network Survey Today</button></a>
-          <h4 class="white">Based on your specific network infrastructure, Teq will evaluate your network and provide a report on how to better utilize your educational technology at <strong>ZERO COST</strong>.<h3>
-          <br />
-          <h4 class="white">From there you can choose which of our NEDM service plans fit your needs. It all starts with an in-depth survey. Although this survey will only take 5-10 minutes of your time, <strong>it can save your school hours in the long run.</strong></h4>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid gray-bg parallax-four">
-      <div class="row">
+    <div class="container-fluid gray-bg parallax-third">
+      <div class="row padding-bottom">
         <div class="container">
           <div class="row padding-top">
             <div class="col">
-              <h1 class="display-4">Let's start to put together a plan.</h1>
-              <p>Don’t be surprised if the content in the videos below sounds familiar, these videos are based on actual customer experiences. Teq has successfully completed hundreds of large-scale classroom technology projects, and we understand the issues involved in supporting the technology needs of thousands of teachers and students.</p><p>Please feel free to contact us for more information at <a href="mailto:onlinepd@teq.com">onlinepd@teq.com</a></p>
+              <h1 class="display-4">Start here.</h1>
+              <p>Teq has completed hundreds of large scale Interactive Flat Panel (IFP) installations and we understand the impact they can have on existing network infrastructure. Below are some sample knowledge based videos on successful Network-Enabled Device Management best practices. For more great videos visit: <a href="https://onlinepd.teq.com/getting-started"> <strong>onlinepd.teq.com/getting-started</strong></a> or <a href="mailto:onlinepd@teq.com"><strong>contact us</strong></a> for more information.</p>
             </div>
           </div>
           <div class="row">
@@ -88,7 +77,7 @@
                   <small>-</small>
                   <h3><strong>Adding Interactive Flat Panels to the Classroom</strong></h3>
                   <p>Should a network enabled interactive flat panel be managed, from a security concern, the same way as any other networked enabled device?</p>
-                  <script src="https://fast.wistia.com/embed/medias/kf88jizmrl.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_kf88jizmrl popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline"><a href="#"><button class="button nedm-button">Play Course »</button></a></span>
+                  <script src="https://fast.wistia.com/embed/medias/kf88jizmrl.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_kf88jizmrl popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline"><a href="#"><button class="button nedm-button">Play Video »</button></a></span>
                 </div>
               </div>
             </div>
@@ -99,7 +88,7 @@
                   <small>-</small>
                   <h3><strong>Screen Casting with Your Flat Panel</strong></h3>
                   <p>What security and general networking concerns should you expect around connecting client-devices to interactive flat panels? </p>
-                  <script src="https://fast.wistia.com/embed/medias/cqgujyvc04.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_cqgujyvc04 popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline"><a href="#"><button class="button nedm-button">Play Course »</button></a></span>
+                  <script src="https://fast.wistia.com/embed/medias/cqgujyvc04.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_cqgujyvc04 popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline"><a href="#"><button class="button nedm-button">Play Video »</button></a></span>
                 </div>
               </div>
             </div>
@@ -108,8 +97,8 @@
                 <div class="card-body">
                   <small class="white">-</small>
                   <h3 class="white"><strong>Continue your learning track today.</strong></h3>
-                  <p class="white">For more great courses on Network-Enabled Network Management (NEDM) visit <a href="https://onlinepd.teq.com/" class="white">opd.teq.com</a> and sign up today! <img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /></p>
-                  <a href="https://onlinepd.teq.com/getting-started"><button class="button white-fill">More Courses +</button></a>
+                  <p class="white">For more great vidoes on Network-Enabled Network Management (NEDM) visit <a href="https://onlinepd.teq.com/getting-started" class="white">onlinepd.teq.com/getting-started</a> and sign up today! <img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="Teq Online Professional Development" /></p>
+                  <a href="https://onlinepd.teq.com/getting-started"><button class="button white-fill">More Videos +</button></a>
                 </div>
               </div>
             </div>
@@ -118,17 +107,156 @@
       </div>
     </div>
 
-    <section class="nedm-dark-bg">
-
-    <div class="container-fluid nedm-dark-bg parallax-five">
+    <div class="container-fluid parallax-four">
       <div class="container">
+
         <div class="row padding-top">
-          <div class="col-md">
-            <h1 class="white">Support Levels</h1>
-            <p class="white">Because each school/district is unique in their varying levels of needs, Teq offers three levels of network consulting.</p>
-            <a href="../nedm-survey/"><button class="button light">Take the survey</button></a>
+          <div class="col">
+            <h1 class="display-4">Guiding the network implementation process</h1>
+            <p>Teq has completed hundreds of large scale Interactive Flat Panel (IFP) installations and we understand the impact they can have on existing network infrastructure. Below are some sample knowledge based videos on successful Network-Enabled Device Management best practices. For more great videos visit: <a href="https://onlinepd.teq.com/getting-started"> <strong>onlinepd.teq.com/getting-started</strong></a> or <a href="mailto:onlinepd@teq.com"><strong>contact us</strong></a> for more information.</p>
           </div>
         </div>
+        <div class="row padding-top" id="surveyIntro">
+          <div class="col-md-6">
+            <span class="circle-stroke">1</span>
+            <h3 class="nedm-text"><strong>Site Survey</strong></h3>
+            <p>Our site survey is a unique opportunity to ensure your interactive flat panel installation goes as smoothly and hassle free as possible. In addition, we are able to indentify any possible generic problems that may affect the successfull utilization of your IFP.</p>
+            <p><a href="../nedm-survey/"><button class="button nedm-button">Take the Survey</button></a></p>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <img class="one" src="public/images/nedm-survey-section-intro.svg" alt="" />
+                <img class="two" src="public/images/nedm-survey-section-intro-icons.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <img src="public/images/nedm-survey-section-divider2.svg" alt="" />
+          </div>
+        </div>
+        <div class="row" id="sectionOne">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="animation-one-container">
+                  <img class="one" src="public/images/nedm-survey-section-one-animation-one.svg" alt="" />
+                </div>
+                <div class="animation-two-container">
+                  <img class="two" src="public/images/nedm-survey-section-one-animation-two.svg" alt="" />
+                </div>
+                <img class="cover" src="public/images/nedm-survey-section-one-animation-cover.svg" alt="" />
+                <img src="public/images/nedm-survey-section-one.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <span class="circle-stroke">2</span>
+            <h3 class="nedm-text"><strong>Network Reporting</strong></h3>
+            <p>Upon installation and site survey completion, Teq is able to perform a two part network survey that will generate a report describing your network infrastructure and performance.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <img src="public/images/nedm-survey-section-divider1.svg" alt="" />
+          </div>
+        </div>
+        <div class="row" id="sectionTwo">
+          <div class="col-md-6">
+            <span class="circle-stroke">3</span>
+            <h3 class="nedm-text"><strong>Software and Network Reporting</strong></h3>
+            <p>Upon installation and site survey completion, Teq is able to perform a two part network survey that will generate a report describing your network infrastructure and performance.</p>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="animation-one-container">
+                  <img class="one" src="public/images/nedm-survey-section-two-animation-two.svg" alt="" />
+                </div>
+                <img src="public/images/nedm-survey-section-two.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <img src="public/images/nedm-survey-section-divider2.svg" alt="" />
+          </div>
+        </div>
+        <div class="row" id="sectionThree">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="animation-one-container">
+                  <img class="one" src="public/images/nedm-survey-section-one-animation-one.svg" alt="" />
+                </div>
+                <div class="animation-two-container">
+                  <img class="two" src="public/images/nedm-survey-section-one-animation-two.svg" alt="" />
+                </div>
+                <img class="cover" src="public/images/nedm-survey-section-three-cover.svg" alt="" />
+                <img src="public/images/nedm-survey-section-three.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <span class="circle-stroke">4</span>
+            <h3 class="nedm-text"><strong>Managed Network-Device Report</strong></h3>
+            <p>Upon installation and site survey completion, Teq is able to perform a two part network survey that will generate a report describing your network infrastructure and performance.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <img src="public/images/nedm-survey-section-divider1.svg" alt="" />
+          </div>
+        </div>
+        <div class="row" id="sectionFour">
+          <div class="col-md-6">
+            <span class="circle-stroke">5</span>
+            <h3 class="nedm-text"><strong>Costly Invenstment Later On</strong></h3>
+            <p>Upon installation and site survey completion, Teq is able to perform a two part network survey that will generate a report describing your network infrastructure and performance.</p>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="animation-one-container">
+                  <img class="one" src="public/images/nedm-survey-section-four-animation-one.svg" alt="" />
+                </div>
+                <div class="animation-two-container">
+                  <img class="two" src="public/images/nedm-survey-section-four-animation-two.svg" alt="" />
+                </div>
+                <img class="cover" src="public/images/nedm-survey-section-four-cover.svg" alt="" />
+                <img src="public/images/nedm-survey-section-four.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row padding-top">
+          <div class="col-md">
+            <h3 class="nedm-text text-center"><strong>Site Survey</strong></h3>
+            <p class="text-center">Our site survey is a unique opportunity to ensure your interactive flat panel installation goes as smoothly and hassle free as possible. In addition, we are able to indentify any possible generic problems that may affect the successfull utilization of your IFP.</p>
+            <p class="text-center"><a href="../nedm-survey/"><button class="button light">Start Your Network Survey Today</button></a></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <section class="nedm-dark-bg">
+
+    <div class="container-fluid gray-bg parallax-five">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <h1 class="display-4">Support Levels</h1>
+            <h5>Because each school/district is unique in their varying levels of needs, Teq offers three levels of network consulting.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid nedm-dark-bg padding-top">
+      <div class="container">
         <div class="row nedm-pricing">
           <div class="col-md-4">
             <img class="support-level" src="public/images/network-enabled-support-level-1.svg" alt="" />
@@ -138,7 +266,7 @@
             </svg>
             <div class="card padding">
               <img src="public/images/network-enabled-support-level-1-text.svg" alt="" />
-              <h5>(2 FULL Complimentary Consultation Hours)</h5>
+              <h5>(FULL Complimentary 1 Hour Consultation)</h5>
               <p>Connect with one of our NEDM experts to review your project. Understand the full capabilities of your classroom technology, and how to maximize their features and connect to student devices.</p>
             </div>
           </div>
