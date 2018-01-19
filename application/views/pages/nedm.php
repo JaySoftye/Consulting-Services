@@ -112,32 +112,20 @@
 
         <div class="row padding-top">
           <div class="col">
-            <h1 class="display-4">Guiding the network implementation process</h1>
-            <p>Teq has completed hundreds of large scale Interactive Flat Panel (IFP) installations and we understand the impact they can have on existing network infrastructure. Below are some sample knowledge based videos on successful Network-Enabled Device Management best practices. For more great videos visit: <a href="https://onlinepd.teq.com/getting-started"> <strong>onlinepd.teq.com/getting-started</strong></a> or <a href="mailto:onlinepd@teq.com"><strong>contact us</strong></a> for more information.</p>
-          </div>
-        </div>
-        <div class="row padding-top" id="surveyIntro">
-          <div class="col-md-6">
-            <span class="circle-stroke">1</span>
-            <h3 class="nedm-text"><strong>Site Survey</strong></h3>
-            <p>Our site survey is a unique opportunity to ensure your interactive flat panel installation goes as smoothly and hassle free as possible. In addition, we are able to indentify any possible generic problems that may affect the successfull utilization of your IFP.</p>
-            <p><a href="../nedm-survey/"><button class="button nedm-button">Take the Survey</button></a></p>
-          </div>
-          <div class="col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <img class="one" src="public/images/nedm-survey-section-intro.svg" alt="" />
-                <img class="two" src="public/images/nedm-survey-section-intro-icons.svg" alt="" />
-              </div>
-            </div>
+            <h1><strong>Still need help?</strong></h1>
+            <h2 class="display-4">Let's get started.</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-md">
-            <img src="public/images/nedm-survey-section-divider2.svg" alt="" />
+            <img src="public/images/nedm-survey-section-divider1.svg" alt="" />
           </div>
         </div>
-        <div class="row" id="sectionOne">
+        <div class="row align-items-center" id="sectionOne">
+          <div class="col-md-6">
+            <span class="circle-stroke">1</span>
+            <p>When you purchase <em>Interactive Flat Panels (IFP)</em> from Teq we perform a site survey. Now, Teq can perform a two-part <em>Network Survey</em> that will generate a report describing your network infrastructure and performance and the impact and potential issues associated with the deployment of these Smart IFP's, as well as all your other <em>Smart Devices</em>.</p>
+          </div>
           <div class="col-md-6">
             <div class="card">
               <div class="card-body">
@@ -152,40 +140,13 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <span class="circle-stroke">2</span>
-            <h3 class="nedm-text"><strong>Network Reporting</strong></h3>
-            <p>Upon installation and site survey completion, Teq is able to perform a two part network survey that will generate a report describing your network infrastructure and performance.</p>
-          </div>
         </div>
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-md">
-            <img src="public/images/nedm-survey-section-divider1.svg" alt="" />
+            <img src="public/images/nedm-survey-section-divider.svg" alt="" />
           </div>
         </div>
-        <div class="row" id="sectionTwo">
-          <div class="col-md-6">
-            <span class="circle-stroke">3</span>
-            <h3 class="nedm-text"><strong>Software and Network Reporting</strong></h3>
-            <p>Upon installation and site survey completion, Teq is able to perform a two part network survey that will generate a report describing your network infrastructure and performance.</p>
-          </div>
-          <div class="col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <div class="animation-one-container">
-                  <img class="one" src="public/images/nedm-survey-section-two-animation-two.svg" alt="" />
-                </div>
-                <img src="public/images/nedm-survey-section-two.svg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md">
-            <img src="public/images/nedm-survey-section-divider2.svg" alt="" />
-          </div>
-        </div>
-        <div class="row" id="sectionThree">
+        <div class="row align-items-center" id="sectionThree">
           <div class="col-md-6">
             <div class="card">
               <div class="card-body">
@@ -201,68 +162,42 @@
             </div>
           </div>
           <div class="col-md-6">
-            <span class="circle-stroke">4</span>
-            <h3 class="nedm-text"><strong>Managed Network-Device Report</strong></h3>
-            <p>Upon installation and site survey completion, Teq is able to perform a two part network survey that will generate a report describing your network infrastructure and performance.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md">
-            <img src="public/images/nedm-survey-section-divider1.svg" alt="" />
-          </div>
-        </div>
-        <div class="row" id="sectionFour">
-          <div class="col-md-6">
-            <span class="circle-stroke">5</span>
-            <h3 class="nedm-text"><strong>Costly Invenstment Later On</strong></h3>
-            <p>Upon installation and site survey completion, Teq is able to perform a two part network survey that will generate a report describing your network infrastructure and performance.</p>
-          </div>
-          <div class="col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <div class="animation-one-container">
-                  <img class="one" src="public/images/nedm-survey-section-four-animation-one.svg" alt="" />
-                </div>
-                <div class="animation-two-container">
-                  <img class="two" src="public/images/nedm-survey-section-four-animation-two.svg" alt="" />
-                </div>
-                <img class="cover" src="public/images/nedm-survey-section-four-cover.svg" alt="" />
-                <img src="public/images/nedm-survey-section-four.svg" alt="" />
-              </div>
-            </div>
+            <span class="circle-stroke">2</span>
+            <p>We also offer an analysis of all the software and applications found on your network as well as the impact existing <em>Smart Devices</em> are having on the performance of your network. To do this, we need your permission to attach our <strong>zero-impact network performance analyzer*</strong> to your network. Check the appropriate box in the <em>Network Survey</em> to give permission to use this tool.</p>
           </div>
         </div>
         <div class="row padding-top">
           <div class="col-md">
-            <h3 class="nedm-text text-center"><strong>Site Survey</strong></h3>
-            <p class="text-center">Our site survey is a unique opportunity to ensure your interactive flat panel installation goes as smoothly and hassle free as possible. In addition, we are able to indentify any possible generic problems that may affect the successfull utilization of your IFP.</p>
             <p class="text-center"><a href="../nedm-survey/"><button class="button light">Start Your Network Survey Today</button></a></p>
           </div>
         </div>
+        <div class="row padding">
+          <div class="col-md">
+            <h2 class="nedm-text text-center"><strong>Performance Reporting</strong></h2>
+            <p class="text-center">Below are sample reports we generate with this analyzer, for a more indepth explanation don't hesitate to <em>contact us</em> using the link below.<br /><small>*If you choose not to allow this network tool initially, there will be an $800.00 charge to perform the same analysis at a later date.</small></p>
+            <p class="text-center"><a href="#"><button class="button sm">View Sample Report</button></a> <a href="mailto:thomasmaher@teq.com"><button class="button sm">Contact Us Today</button></a></p>
+          </div>
+        </div>
 
       </div>
     </div>
 
-    <section class="nedm-dark-bg">
+    <section class="">
 
-    <div class="container-fluid gray-bg parallax-five">
+    <div class="container-fluid padding-bottom parallax-five">
       <div class="container">
         <div class="row">
           <div class="col-md">
-            <h1 class="display-4">Support Levels</h1>
-            <h5>Because each school/district is unique in their varying levels of needs, Teq offers three levels of network consulting.</h5>
+            <h1 class="display-4 text-center">Support Levels</h1>
+            <h5 class="text-center">Because each school/district is unique in their varying levels of needs, Teq offers three levels of network consulting.</h5>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="container-fluid nedm-dark-bg padding-top">
-      <div class="container">
         <div class="row nedm-pricing">
           <div class="col-md-4">
             <img class="support-level" src="public/images/network-enabled-support-level-1.svg" alt="" />
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                viewBox="0 0 50 30" style="enable-background:new 0 0 50 30;" xml:space="preserve">
-               <line class="path-one" style="stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;" x1="45" y1="28.396" x2="5" y2="28.396"/>
+               <line class="path-one" style="stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" x1="45" y1="28.396" x2="5" y2="28.396"/>
             </svg>
             <div class="card padding">
               <img src="public/images/network-enabled-support-level-1-text.svg" alt="" />
@@ -274,9 +209,9 @@
             <img class="support-level" src="public/images/network-enabled-support-level-2.svg" alt="" />
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                viewBox="0 0 50 30" style="enable-background:new 0 0 50 30;" xml:space="preserve">
-               <line class="path-one" style="stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;" x1="25.074" y1="22.708" x2="45" y2="22.708"/>
-               <line class="path-two" style="stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;" x1="8.875" y1="25.333" x2="26.097" y2="25.333"/>
-               <line class="path-two" style="stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;" x1="45" y1="28.396" x2="5" y2="28.396"/>
+               <line class="path-one" style="stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" x1="25.074" y1="22.708" x2="45" y2="22.708"/>
+               <line class="path-two" style="stroke:#333333;stroke-width:0.25;stroke-miterlimit:10;" x1="8.875" y1="25.333" x2="26.097" y2="25.333"/>
+               <line class="path-two" style="stroke:#666666;stroke-width:0.25;stroke-miterlimit:10;" x1="45" y1="28.396" x2="5" y2="28.396"/>
             </svg>
             <div class="card padding">
               <img src="public/images/network-enabled-support-level-2-text.svg" alt="" />
@@ -288,11 +223,11 @@
             <img class="support-level" src="public/images/network-enabled-support-level-3.svg" alt="" />
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                viewBox="0 0 50 30" style="enable-background:new 0 0 50 30;" xml:space="preserve">
-               <line class="path-two" style="stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;" x1="25.074" y1="22.708" x2="45" y2="22.708"/>
-               <line class="path-three" style="stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;" x1="8.875" y1="25.333" x2="26.097" y2="25.333"/>
-               <line class="path-one" style="stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;" x1="45" y1="28.396" x2="5" y2="28.396"/>
-               <line class="path-three" style="stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;" x1="19.75" y1="15.887" x2="19.75" y2="1.914"/>
-               <line class="path-one" style="stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;" x1="29.375" y1="4.484" x2="29.375" y2="18.458"/>
+               <line class="path-two" style="stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" x1="25.074" y1="22.708" x2="45" y2="22.708"/>
+               <line class="path-three" style="stroke:#333333;stroke-width:0.25;stroke-miterlimit:10;" x1="8.875" y1="25.333" x2="26.097" y2="25.333"/>
+               <line class="path-one" style="stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" x1="45" y1="28.396" x2="5" y2="28.396"/>
+               <line class="path-three" style="stroke:#888888;stroke-width:0.25;stroke-miterlimit:10;" x1="19.75" y1="15.887" x2="19.75" y2="1.914"/>
+               <line class="path-one" style="stroke:#666666;stroke-width:0.25;stroke-miterlimit:10;" x1="29.375" y1="4.484" x2="29.375" y2="18.458"/>
             </svg>
             <div class="card padding">
               <img src="public/images/network-enabled-support-level-3-text.svg" alt="" />
@@ -304,7 +239,7 @@
       </div>
     </div>
 
-    <div class="container-fluid nedm-bg padding-top padding-bottom parallax-six">
+    <div class="container-fluid nedm-bg padding parallax-six">
       <div class="container">
         <div class="row padding">
           <div class="col-md-1"></div>
@@ -332,11 +267,9 @@
       </div>
     </div>
 
-    </section>
-
-    <div class="container-fluid white-bg padding-top padding-bottom parallax">
+    <div class="container-fluid gray-bg padding-top padding-bottom parallax">
       <div class="container">
-      <div class="row">
+      <div class="row padding-top">
         <div class="col-md">
           <h2><strong>Frequently Asked Network Questions</strong></h2>
           <h5>Because every school/district is different in their varying levels of devices and needs, most don't realize the drastic impact a few network devices can have on your existing setup. Communication through networks can be done through software and hardware. The data is exchanged via data links. The links might be either wired media or wireless media. The possibilities can be infinite. Below you can find a general list of troubleshooting questions to get you started:</h5>

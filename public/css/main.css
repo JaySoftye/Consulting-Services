@@ -214,9 +214,9 @@ img.full {
 
 button.button.light  {
   display: inline;
-  margin: 1rem auto 2rem auto !important;
+  margin: 0 auto 2rem 2rem !important;
   outline: none;
-  background: rgb(41, 92, 100);
+  background: rgb(77, 168, 182);
   padding: 25px 50px;
   border: none;
   border-radius: 5px !important;
@@ -251,7 +251,7 @@ button.button  {
 
 button.button.sm  {
   display: inline;
-  margin: 1rem auto;
+  margin: 1rem 1rem 1rem auto;
   padding: 10px 20px;
   font-size: 90%;
 }
@@ -895,6 +895,7 @@ span.stem-icon {
 
 .faq-accordion {
   display: block;
+  background-color: rgb(255, 255, 255);
   border: 2px solid black;
   padding: 0 1.75rem;
   margin-bottom: 30px;
@@ -1037,8 +1038,8 @@ span.circle-stroke {
   width: 35px;
   height: 35px;
   display: inline-block;
-  margin-left: 20px;
-  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-bottom: 10px;
   border-radius: 100px;
   border: solid 3px rgb(77, 168, 182);
   text-align: center;
