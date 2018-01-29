@@ -28,8 +28,9 @@
 
   <div class="container-fluid header-container">
     <div class="top-header">
-      <video poster="public/images/poster-header-image.jpg" playsinline autoplay muted loop>
-        <source src="public/images/consulting-video-background.mp4" type="video/mp4" />
+      <video poster="" playsinline autoplay muted loop>
+        <source src="public/images/consulting-video-clouds-background.webm" type="video/webm" />
+        <source src="public/images/consulting-video-clouds-background.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="row parallax-first">
@@ -107,139 +108,191 @@
       </div>
     </div>
 
-    <div class="container-fluid parallax-four">
+    <div class="container-fluid nedm-bg parallax-four">
       <div class="container">
 
         <div class="row padding-top">
           <div class="col">
-            <h1><strong>Still need help?</strong></h1>
-            <h2 class="display-4">Let's get started.</h2>
+            <h1 class="display-4">Next <strong>Steps.</strong></h1>
+            <p>This process is designed to predict and prepare network engineers in mitigating network usability and performance issues prior to the deployment of a significant amount of interactive flat panels (IFP).</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md">
-            <img src="public/images/nedm-survey-section-divider1.svg" alt="" />
-          </div>
-        </div>
-        <div class="row align-items-center" id="sectionOne">
-          <div class="col-md-6">
-            <span class="circle-stroke">1</span>
-            <p>When you purchase <em>Interactive Flat Panels (IFP)</em> from Teq we perform a site survey. Now, Teq can perform a two-part <em>Network Survey</em> that will generate a report describing your network infrastructure and performance and the impact and potential issues associated with the deployment of these Smart IFP's, as well as all your other <em>Smart Devices</em>.</p>
-          </div>
-          <div class="col-md-6">
+        <div class="row padding">
+          <div class="col-md-5">
             <div class="card">
-              <div class="card-body">
-                <div class="animation-one-container">
-                  <img class="one" src="public/images/nedm-survey-section-one-animation-one.svg" alt="" />
-                </div>
-                <div class="animation-two-container">
-                  <img class="two" src="public/images/nedm-survey-section-one-animation-two.svg" alt="" />
-                </div>
-                <img class="cover" src="public/images/nedm-survey-section-one-animation-cover.svg" alt="" />
-                <img src="public/images/nedm-survey-section-one.svg" alt="" />
-              </div>
+              <img src="public/images/nedm-survey-sections-animations1.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-7 survey">
+            <h2><span class="circle-stroke">1</span> Network Survey</h2>
+            <p>When you purchase IFPs from Teq we perform a site survey. We now require that you fill out an <a href="http://www-dev.teq.com/nedm-survey/">online network survey</a> that will generate a report describing your network infrastructure.</p>
+          </div>
+        </div>
+        <div class="row padding">
+          <div class="col-md-7 survey">
+            <h2 class="text-right">Analysis Report <span class="circle-stroke">2</span></h2>
+            <p>The survey will be accompanied by an analysis of the performance of your network from the standpoint of bandwidth allocation and usage, software, applications, and network-enabled devices. We require your permission to attach our <strong>zero-impact performance analyzer</strong> in order to generate the graphs and charts (see examples below) that will assist us in developing the impact statement. Check the appropriate box in the <a href="http://www-dev.teq.com/nedm-survey/">survey</a>.</p>
+          </div>
+          <div class="col-md-5">
+            <div class="card">
+              <img src="public/images/nedm-survey-sections-animations2.svg" alt="" />
             </div>
           </div>
         </div>
-        <div class="row align-items-center">
-          <div class="col-md">
-            <img src="public/images/nedm-survey-section-divider.svg" alt="" />
-          </div>
-        </div>
-        <div class="row align-items-center" id="sectionThree">
-          <div class="col-md-6">
+        <div class="row padding">
+          <div class="col-md-5">
             <div class="card">
-              <div class="card-body">
-                <div class="animation-one-container">
-                  <img class="one" src="public/images/nedm-survey-section-one-animation-one.svg" alt="" />
-                </div>
-                <div class="animation-two-container">
-                  <img class="two" src="public/images/nedm-survey-section-one-animation-two.svg" alt="" />
-                </div>
-                <img class="cover" src="public/images/nedm-survey-section-three-cover.svg" alt="" />
-                <img src="public/images/nedm-survey-section-three.svg" alt="" />
-              </div>
+              <img src="public/images/nedm-survey-sections-animations3.svg" alt="" />
             </div>
           </div>
-          <div class="col-md-6">
-            <span class="circle-stroke">2</span>
-            <p>We also offer an analysis of all the software and applications found on your network as well as the impact existing <em>Smart Devices</em> are having on the performance of your network. To do this, we need your permission to attach our <strong>zero-impact network performance analyzer*</strong> to your network. Check the appropriate box in the <em>Network Survey</em> to give permission to use this tool.</p>
-          </div>
-        </div>
-        <div class="row padding-top">
-          <div class="col-md">
-            <p class="text-center"><a href="../nedm-survey/"><button class="button light">Start Your Network Survey Today</button></a></p>
+          <div class="col-md-7 survey">
+            <h2><span class="circle-stroke">3</span> Impact Statement</h2>
+            <p>Utilizing the information obtained from the IT survey and the reports generated by our network analyzer, we evaluate specific key areas within your network topology to identify any potential issues, associated with network segmentation, I/O bottlenecks, endpoint content filter restrictions and stringent security policies as it relates to the inclusion of IFPs. The impact statement includes our conclusions and recommendations for creating a reliable network environment with greater usability and improved performance prior to the deployment of these devices.</p>
           </div>
         </div>
         <div class="row padding">
           <div class="col-md">
-            <h2 class="nedm-text text-center"><strong>Performance Reporting</strong></h2>
-            <p class="text-center">Below are sample reports we generate with this analyzer, for a more indepth explanation don't hesitate to <em>contact us</em> using the link below.<br /><small>*If you choose not to allow this network tool initially, there will be an $800.00 charge to perform the same analysis at a later date.</small></p>
-            <p class="text-center"><a href="#"><button class="button sm">View Sample Report</button></a> <a href="mailto:thomasmaher@teq.com"><button class="button sm">Contact Us Today</button></a></p>
+            <p class="text-center"><a href="../nedm-survey/"><button class="button light start">Start your survey</button></a></p>
+          </div>
+        </div>
+        <div class="row padding-top">
+          <div class="col-md">
+            <h2 class="display-4 text-center">Network <strong>Performance Analyzer</strong> Samples</h2>
+            <p class="text-center">Below are sample reports we generate with this analyzer. For more information on this tool, contact Tom Maher at <a  href="mailto:thomasmaher@teq.com"><strong><u>thomasmaher@teq.com</u>  </strong>.</a></p>
           </div>
         </div>
 
-      </div>
-    </div>
-
-    <section class="">
-
-    <div class="container-fluid padding-bottom parallax-five">
-      <div class="container">
         <div class="row">
           <div class="col-md">
-            <h1 class="display-4 text-center">Support Levels</h1>
-            <h5 class="text-center">Because each school/district is unique in their varying levels of needs, Teq offers three levels of network consulting.</h5>
+
+            <div id="carouselReportSamples" class="carousel slide" data-ride="carousel" data-interval="3000">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-usage_overview.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>Usage Overview</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-link_level_stats.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>Link-Level Statistics</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-concurrent_flows.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>Top Applications</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-top_applications.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>Concurrent Flows</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-response_time_analytics.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>Response Time Analytics</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-application_throughput.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>Application Throughput</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-transaction_statistics.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>Transaction Statistics</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-application_quality_health.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>Application Quality and Health</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-link_statistics.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>Link Statistics</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-mos_score.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>MOS Score</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="padding">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselReportSamples" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselReportSamples" data-slide-to="1"></li>
+                  <li data-target="#carouselReportSamples" data-slide-to="2"></li>
+                  <li data-target="#carouselReportSamples" data-slide-to="3"></li>
+                  <li data-target="#carouselReportSamples" data-slide-to="4"></li>
+                </ol>
+              </div>
+            </div>
+
           </div>
         </div>
-        <div class="row nedm-pricing">
-          <div class="col-md-4">
-            <img class="support-level" src="public/images/network-enabled-support-level-1.svg" alt="" />
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-               viewBox="0 0 50 30" style="enable-background:new 0 0 50 30;" xml:space="preserve">
-               <line class="path-one" style="stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" x1="45" y1="28.396" x2="5" y2="28.396"/>
-            </svg>
-            <div class="card padding">
-              <img src="public/images/network-enabled-support-level-1-text.svg" alt="" />
-              <h5>(FULL Complimentary 1 Hour Consultation)</h5>
-              <p>Connect with one of our NEDM experts to review your project. Understand the full capabilities of your classroom technology, and how to maximize their features and connect to student devices.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <img class="support-level" src="public/images/network-enabled-support-level-2.svg" alt="" />
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-               viewBox="0 0 50 30" style="enable-background:new 0 0 50 30;" xml:space="preserve">
-               <line class="path-one" style="stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" x1="25.074" y1="22.708" x2="45" y2="22.708"/>
-               <line class="path-two" style="stroke:#333333;stroke-width:0.25;stroke-miterlimit:10;" x1="8.875" y1="25.333" x2="26.097" y2="25.333"/>
-               <line class="path-two" style="stroke:#666666;stroke-width:0.25;stroke-miterlimit:10;" x1="45" y1="28.396" x2="5" y2="28.396"/>
-            </svg>
-            <div class="card padding">
-              <img src="public/images/network-enabled-support-level-2-text.svg" alt="" />
-              <h5>(Remote/Onsite Solution Description – Hours and Cost)</h5>
-              <p>Evaluate how your current infrastructure will be impacted by adding hundreds of new devices. Receive a network evaluation along with recommendations on device management and security.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <img class="support-level" src="public/images/network-enabled-support-level-3.svg" alt="" />
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-               viewBox="0 0 50 30" style="enable-background:new 0 0 50 30;" xml:space="preserve">
-               <line class="path-two" style="stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" x1="25.074" y1="22.708" x2="45" y2="22.708"/>
-               <line class="path-three" style="stroke:#333333;stroke-width:0.25;stroke-miterlimit:10;" x1="8.875" y1="25.333" x2="26.097" y2="25.333"/>
-               <line class="path-one" style="stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" x1="45" y1="28.396" x2="5" y2="28.396"/>
-               <line class="path-three" style="stroke:#888888;stroke-width:0.25;stroke-miterlimit:10;" x1="19.75" y1="15.887" x2="19.75" y2="1.914"/>
-               <line class="path-one" style="stroke:#666666;stroke-width:0.25;stroke-miterlimit:10;" x1="29.375" y1="4.484" x2="29.375" y2="18.458"/>
-            </svg>
-            <div class="card padding">
-              <img src="public/images/network-enabled-support-level-3-text.svg" alt="" />
-              <h5>(Full Solution Description – Cost Calculation)</h5>
-              <p>Receive a complete evaluation of your network as it relates to your new devices, any cloud applications, and digital content. Receive recommendations from our NEDM experts along with options for long-term visibility to your network performance.</p>
-            </div>
+
+        <div class="row padding-bottom">
+          <div class="col-md padding">
+            <p class="text-center"><a href="public/images/Teq_Consulting-NEDM_Sample-Reporting_2018copy.pdf" target="_blank"><button class="button light">Download a Sample Report</button></a></p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid nedm-bg padding parallax-six">
+    <section>
+
+    <div class="container-fluid nedm-bg padding parallax-five">
       <div class="container">
         <div class="row padding">
           <div class="col-md-1"></div>
@@ -267,7 +320,62 @@
       </div>
     </div>
 
-    <div class="container-fluid gray-bg padding-top padding-bottom parallax">
+    <div class="container-fluid padding-bottom parallax-six">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <h1 class="display-4 text-center">Support Levels</h1>
+            <h5 class="text-center">Because each school/district is unique in their varying levels of needs, Teq offers three levels of network consulting.</h5>
+          </div>
+        </div>
+        <div class="row nedm-pricing">
+          <div class="col-md-4">
+            <img class="support-level" src="public/images/network-enabled-support-level-1.svg" alt="" />
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               viewBox="0 0 50 30" style="enable-background:new 0 0 50 30;" xml:space="preserve">
+               <line class="path-one" style="stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" x1="45" y1="28.396" x2="5" y2="28.396"/>
+            </svg>
+            <div class="card padding">
+              <img src="public/images/network-enabled-support-level-1-text.svg" alt="" />
+              <h5>Tier 1(FULL Complimentary 1 Hour Consultation)</h5>
+              <p>Free consultation call reviewing the most frequently asked questions, common concerns and providing additional setup and configuration tips.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img class="support-level" src="public/images/network-enabled-support-level-2.svg" alt="" />
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               viewBox="0 0 50 30" style="enable-background:new 0 0 50 30;" xml:space="preserve">
+               <line class="path-one" style="stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" x1="25.074" y1="22.708" x2="45" y2="22.708"/>
+               <line class="path-two" style="stroke:#333333;stroke-width:0.25;stroke-miterlimit:10;" x1="8.875" y1="25.333" x2="26.097" y2="25.333"/>
+               <line class="path-two" style="stroke:#666666;stroke-width:0.25;stroke-miterlimit:10;" x1="45" y1="28.396" x2="5" y2="28.396"/>
+            </svg>
+            <div class="card padding">
+              <img src="public/images/network-enabled-support-level-2-text.svg" alt="" />
+              <h5>Tier 2(Remote/Onsite Solution Description – Hours and Cost)</h5>
+              <p>Solve specific configuration issues and challenges that are introduced by various vendor / equipment deployments and security policies.  This will be conducted either onsite or by utilizing remote administration tools.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img class="support-level" src="public/images/network-enabled-support-level-3.svg" alt="" />
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               viewBox="0 0 50 30" style="enable-background:new 0 0 50 30;" xml:space="preserve">
+               <line class="path-two" style="stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" x1="25.074" y1="22.708" x2="45" y2="22.708"/>
+               <line class="path-three" style="stroke:#333333;stroke-width:0.25;stroke-miterlimit:10;" x1="8.875" y1="25.333" x2="26.097" y2="25.333"/>
+               <line class="path-one" style="stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" x1="45" y1="28.396" x2="5" y2="28.396"/>
+               <line class="path-three" style="stroke:#888888;stroke-width:0.25;stroke-miterlimit:10;" x1="19.75" y1="15.887" x2="19.75" y2="1.914"/>
+               <line class="path-one" style="stroke:#666666;stroke-width:0.25;stroke-miterlimit:10;" x1="29.375" y1="4.484" x2="29.375" y2="18.458"/>
+            </svg>
+            <div class="card padding">
+              <img src="public/images/network-enabled-support-level-3-text.svg" alt="" />
+              <h5>Tier 3(Full Solution Description – Cost Calculation)</h5>
+              <p>We will design and provide a complete network architecture, optimal infrastructure configuration and a topology layout that will enable all current features and functions of network enabled devices within an environment.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid gray-bg padding-bottom parallax">
       <div class="container">
       <div class="row padding-top">
         <div class="col-md">

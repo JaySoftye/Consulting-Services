@@ -3,8 +3,9 @@
 <section class="container-fluid nopadding header-container">
   <div class="top-header">
     <div class="video-mask"></div>
-    <video poster="public/images/poster-header-image.jpg" playsinline autoplay muted loop>
-      <source src="public/472734695.mp4" type="video/mp4" />
+    <video poster="" playsinline autoplay muted loop>
+      <source src="public/images/consulting-video-clouds-background.webm" type="video/webm" />
+      <source src="public/images/consulting-video-clouds-background.mp4" type="video/mp4" />
     </video>
   </div>
   <section class="padding-left padding-right header-logo parallax-first">
@@ -23,6 +24,11 @@
   </section>
   <div class="mask gradient-bg parallax-second">
     <div class="container feather-bg">
+      <div class="row">
+        <div class="col-md padding">
+          <h3 class="text-center">Reacting organically to <strong>your needs</strong>.</h3>
+        </div>
+      </div>
       <div class="card">
         <div class="row align-items-center consulting-services-intro-container">
           <div class="col-md nopadding">
@@ -32,7 +38,7 @@
             </video>
             <div class="container row consulting-services-intro-content">
               <div class="col-md-9 consulting-services-intro">
-                <h2>An introduction to Teq's 3 new areas of guidance and expertise.</h2>
+                <h3>An introduction to Teq's three new areas of guidance and expertise.</h3>
                 <h1><img src="public/images/Consulting_Services_damain-scarfo-ceo-sig.jpg" /></h1>
                 <h6><strong>Damian Scarfo</strong><br /><em>Chief Executive officer, Teq</em></h6>
                 <script src="https://fast.wistia.com/embed/medias/awygchlow7.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_awygchlow7 popover=true popoverContent=link" style="display:inline"><button class="button black">Play Video</button></a></span>

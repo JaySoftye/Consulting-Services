@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6, p, small, blockquote, a, button {
 
 a, a:focus, a:hover, a:active {
   outline: 0;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 a img:hover, a img:focus, a img:active, .card.vid-button:hover {
@@ -136,6 +136,48 @@ div.modal-dialog {
   top: 12%;
 }
 
+div.carousel-inner div.carousel-item {
+  padding: 2.25rem;
+}
+
+div.carousel-inner ol.carousel-indicators {
+  margin-top: 5rem;
+}
+
+ol.carousel-indicators {
+  padding: 2rem !important;
+}
+
+ol.carousel-indicators li {
+  width: 20px !important;
+  height: 20px !important;
+  margin-left: 7px !important;
+  margin-right: 7px !important;
+  border: 2px solid rgb(77, 168, 182);
+  border-radius: 100px;
+}
+
+ol.carousel-indicators .active:after {
+  content: '';
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  border-radius: 100px;
+  background: rgb(255, 255, 255);
+  z-index: -1;
+}
+
+.carousel-item .card img {
+  min-height: 300px;
+  max-height: 300px;
+}
+
+.carousel-item .card-body h5 {
+  text-align: center;
+}
+
 /*! SHARED STYLES */
 
 .full-height {
@@ -214,9 +256,9 @@ img.full {
 
 button.button.light  {
   display: inline;
-  margin: 0 auto 2rem 2rem !important;
+  margin: 0 auto !important;
   outline: none;
-  background: rgb(77, 168, 182);
+  background: rgb(255, 255, 255);
   padding: 25px 50px;
   border: none;
   border-radius: 5px !important;
@@ -225,11 +267,23 @@ button.button.light  {
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
-  color: rgb(255, 255, 255);
-  font-weight: 400;
+  color: rgb(77, 168, 182);
+  font-weight: 700;
   position: relative;
   cursor: pointer;
   z-index: 1;
+}
+
+button.button.light.start {
+  background: rgb(255, 255, 255)  url('../images/start-survey-button-bg.svg') no-repeat 87% center;
+  padding: 25px 100px 25px 50px;
+  font-size: 1.25rem;
+  color: rgb(77, 168, 182);
+}
+
+button.button.light.start:hover, button.button.light.start:focus {
+  background-color: rgb(41, 92, 100);
+  color: rgb(77, 168, 182);
 }
 
 button.button  {
@@ -945,7 +999,7 @@ span.stem-icon {
 .nedm-pricing p {
   display: block; /* Fallback for non-webkit */
   display: -webkit-box;
-  height: 215px;
+  height: 190px;
 }
 
 .nedm-pricing img.support-level {
@@ -1013,6 +1067,37 @@ span.stem-icon {
 
 /*! NEDM Survey Styles */
 
+div.survey h2 {
+  margin-top: 15px;
+  font-size: 2.75rem;
+  color: rgb(255, 255, 255);
+}
+
+div.survey h2 span.circle-stroke {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  margin-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  border: solid 3px rgb(77, 168, 182);
+  text-align: center;
+  color: rgb(77, 168, 182);
+}
+
+div.survey p, div.survey a {
+  color: rgb(255, 255, 255);
+}
+
+div.survey a, div.survey a:hover, div.survey a:focus {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+div.survey a:hover, div.survey a:active {
+  color: rgb(0, 0, 0);
+}
+
 div#surveyIntro img.one {
   position: relative;
   z-index: 50;
@@ -1032,20 +1117,6 @@ div#surveyIntro img.two {
 	0% { transform: scale(1.1); }
   50% { transform: scale(1.025); }
 	100% { transform: scale(1.1); }
-}
-
-span.circle-stroke {
-  width: 35px;
-  height: 35px;
-  display: inline-block;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  border-radius: 100px;
-  border: solid 3px rgb(77, 168, 182);
-  text-align: center;
-  font-size: 1.15rem;
-  font-weight: 500;
-  color: rgb(77, 168, 182);
 }
 
 div#sectionOne img.cover {
@@ -1246,7 +1317,7 @@ div#sectionFour div.animation-two-container img.two {
 }
 
 .container.feather-bg {
-  padding: 15rem 0;
+  padding: 8.5rem 0 10rem 0;
   background-image: url('../images/mask-feather-background.svg');
   background-size: cover;
   background-color: transparent;

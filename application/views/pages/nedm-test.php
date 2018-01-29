@@ -95,7 +95,7 @@
       </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid nedm-bg">
       <div class="container">
 
         <div class="row padding-top">
@@ -104,9 +104,9 @@
           </div>
         </div>
         <div class="row padding-top" id="surveyIntro">
-          <div class="col-md-6">
-            <span class="circle-stroke">1</span>
-            <h5 class="nedm-text"><strong>Site Survey</strong></h5>
+          <div class="col-md-6 survey">
+            <h2><span class="circle-stroke">1</span></h2>
+            <h2><strong>Site Survey</strong></h2>
             <p>Our site survey is done prior to installing the physical board into the classroom. It is a unique opportunity to ensure your interactive flat panel installation goes as smoothly and hassle free as possible. In addition, we are able to indentify any possible physical problems that may affect the successfull utilization of your IFP.</p>
           </div>
           <div class="col-md-6">
@@ -138,9 +138,9 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <span class="circle-stroke">2</span>
-            <h5 class="nedm-text"><strong>Network Reporting</strong></h5>
+          <div class="col-md-6 survey">
+            <h2><span class="circle-stroke">2</span></h2>
+            <h2><strong>Network Reporting</strong></h2>
             <p>Upon installation and site survey completion, Teq is able to perform a two part network survey that will generate a report describing your network infrastructure and performance. By taking 5 minutes to tell us about your network infrastructure, we can provide a more thorough approach to your network devices and their applications. </p>
             <p><a href="../nedm-survey/"><button class="button nedm-button">Start network survey</button></a></p>
           </div>
@@ -151,9 +151,9 @@
           </div>
         </div>
         <div class="row" id="sectionTwo">
-          <div class="col-md-6">
-            <span class="circle-stroke">3</span>
-            <h5 class="nedm-text"><strong>Software/Application Reporting</strong></h5>
+          <div class="col-md-6 survey">
+            <h2><span class="circle-stroke">3</span></h2>
+            <h2><strong>Software/Application Reporting</strong></h2>
             <p>Once the network portion is identified, we then provide an analysis of the software and applications found on your network as well as the impact other existing <em>Smart Devices</em> might have. To do this, we need permission to attach a <strong>ZERO IMPACT</strong> network analyzer on your network. Please make sure you select the appropriate option on the network survey.</p>
             <img class="col-sm-6" src="public/images/nedm-survey-section-agree-survey-image.svg" alt="" />
           </div>
@@ -188,9 +188,9 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <span class="circle-stroke">4</span>
-            <h5 class="nedm-text"><strong>Managed Network-Device Report</strong></h5>
+          <div class="col-md-6 survey">
+            <h2><span class="circle-stroke">4</span></h2>
+            <h2><strong>Managed Network-Device Report</strong></h2>
             <p>Once the onsite data is collected, we can then provide a full comprehensive report to the successful deployment of all your <em>Smart Devices</em> Using the link below you can download a sample report or feel free to <em>contact us</em> for more information regarding this process or the device details.</p>
             <p><a href="#"><button class="button sm">Sample Survey</button></a> <a href="mailto:thomasmaher@teq.com"><button class="button sm">Contact Us</button></a></p>
           </div>
@@ -201,9 +201,9 @@
           </div>
         </div>
         <div class="row" id="sectionFour">
-          <div class="col-md-6">
-            <span class="circle-stroke">5</span>
-            <h5 class="nedm-text"><strong>Prevent Costly Solutions Later On</strong></h5>
+          <div class="col-md-6 survey">
+            <h2><span class="circle-stroke">5</span></h2>
+            <h2><strong>Prevent Costly Solutions Later On</strong></h2>
             <p>The idea is not to only provide successfull implementation of <em>Smart Devices</em> across your network but to avoid any expensive investments in the future. Our years of experience has provided us the means to execute the preformance of your devices schools require.</p>
           </div>
           <div class="col-md-6">
@@ -227,6 +227,50 @@
             <p class="text-center"><a href="../nedm-survey/"><button class="button light">Start Your Network Survey Today</button></a></p>
           </div>
         </div>
+
+
+        <div class="row padding-top">
+          <div class="col-md">
+
+            <div class="row">
+            	<div id="recipeCarousel" class="carousel slide">
+            		<div class="carousel-inner" role="listbox">
+            			<div class="carousel-item active">
+            				<img class="d-block col-6 img-fluid" src="http://placehold.it/350x150?text=1">
+            			</div>
+            			<div class="carousel-item">
+            				<img class="d-block col-6 img-fluid" src="http://placehold.it/350x150?text=2">
+            			</div>
+            			<div class="carousel-item">
+            				<img class="d-block col-6 img-fluid" src="http://placehold.it/350x150?text=3">
+            			</div>
+            			<div class="carousel-item">
+            				<img class="d-block col-6 img-fluid" src="http://placehold.it/350x150?text=4">
+            			</div>
+            			<div class="carousel-item">
+            				<img class="d-block col-6 img-fluid" src="http://placehold.it/350x150?text=5">
+            			</div>
+            		</div>
+
+            	</div>
+            </div>
+
+<div class="row">
+  <div class="col-md padding">
+    <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+          </div>
+        </div>
+
 
       </div>
     </div>

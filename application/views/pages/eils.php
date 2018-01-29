@@ -28,8 +28,9 @@
 
   <div class="container-fluid header-container">
     <div class="top-header">
-      <video poster="public/images/poster-header-image.jpg" playsinline autoplay muted loop>
-        <source src="public/images/consulting-video-background.mp4" type="video/mp4" />
+      <video poster="" playsinline autoplay muted loop>
+        <source src="public/images/consulting-video-clouds-background.webm" type="video/webm" />
+        <source src="public/images/consulting-video-clouds-background.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="row parallax-first">
