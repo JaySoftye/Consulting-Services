@@ -52,7 +52,7 @@
         <div class="row padding-top">
           <div class="col-md-6">
             <h3><strong>A comprehensive approach to managing the implementation of <em>Smart Devices.</em></strong></h3>
-            <h5>Teq’s Network-Enabled Device Management (NEDM) Consulting lets you take a proactive approach to your technology initiatives, and set your school up for success by removing the limitations of your network before a school-wide device rollout. With this service, you will learn what policies and processes should be put in place to secure your network- enabled devices, including your new Interactive Flat Panel Displays (IFPs).</h5>
+            <h5>Teq’s Network-Enabled Device Management (NEDM) consulting lets you take a proactive approach to your technology initiatives, and set your school up for success by removing the limitations of your network before a school-wide device rollout. With this service, you will learn what policies and processes should be put in place to ensure the usability and performance when deploying your interactive flat panels and other network enabled devices.</h5>
             <p><button type="button" class="button" data-toggle="modal" data-target="#brochureform">Request a brochure</button></p>
           </div>
         </div>
@@ -63,14 +63,14 @@
 
     <div class="container-fluid gray-bg parallax-third">
       <div class="row padding-bottom">
-        <div class="container">
+        <div class="container padding-bottom">
           <div class="row padding-top">
             <div class="col">
               <h1 class="display-4">Start here.</h1>
               <p>Teq has completed hundreds of large scale Interactive Flat Panel (IFP) installations and we understand the impact they can have on existing network infrastructure. Below are some sample knowledge based videos on successful Network-Enabled Device Management best practices. For more great videos visit: <a href="https://onlinepd.teq.com/getting-started"> <strong>onlinepd.teq.com/getting-started</strong></a> or <a href="mailto:onlinepd@teq.com"><strong>contact us</strong></a> for more information.</p>
             </div>
           </div>
-          <div class="row">
+          <div class="row padding-bottom">
             <div class="col-md-4">
               <div class="card nedm-course">
                 <span class="nedm-icon"></span>
@@ -351,7 +351,7 @@
             </svg>
             <div class="card padding">
               <img src="public/images/network-enabled-support-level-2-text.svg" alt="" />
-              <h5>Tier 2(Remote/Onsite Solution Description – Hours and Cost)</h5>
+              <h5>Tier 2(Remote/Onsite Solution Description – $400 per hour)</h5>
               <p>Solve specific configuration issues and challenges that are introduced by various vendor / equipment deployments and security policies.  This will be conducted either onsite or by utilizing remote administration tools.</p>
             </div>
           </div>
@@ -367,7 +367,7 @@
             </svg>
             <div class="card padding">
               <img src="public/images/network-enabled-support-level-3-text.svg" alt="" />
-              <h5>Tier 3(Full Solution Description – Cost Calculation)</h5>
+              <h5>Tier 3(Full Solution Description – Cost Quote per project)</h5>
               <p>We will design and provide a complete network architecture, optimal infrastructure configuration and a topology layout that will enable all current features and functions of network enabled devices within an environment.</p>
             </div>
           </div>

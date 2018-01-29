@@ -56,21 +56,21 @@ $(document).ready(function(){
             var currentElement = parallaxElementsFirst.eq(i);
             var scrolled = $(window).scrollTop();
               currentElement.css({
-                'transform': 'translate3d(0,' + scrolled * +0.3 + 'px, 0)'
+                'transform': 'translate3d(0,' + scrolled * +0.2 + 'px, 0)'
               });
           }
           for (var i = 0; i < parallaxQuantitySecond; i++) {
             var currentElement = parallaxElementsSecond.eq(i);
             var scrolled = $(window).scrollTop();
               currentElement.css({
-                'transform': 'translate3d(0,' + scrolled * +0.1 + 'px, 0)'
+                'transform': 'translate3d(0,' + scrolled * +0.05 + 'px, 0)'
               });
           }
           for (var i = 0; i < parallaxQuantityThird; i++) {
             var currentElement = parallaxElementsThird.eq(i);
             var scrolled = $(window).scrollTop();
               currentElement.css({
-                'transform': 'translate3d(0,' + scrolled * -0.2 + 'px, 0)'
+                'transform': 'translate3d(0,' + scrolled * -0.1 + 'px, 0)'
               });
           }
           for (var i = 0; i < parallaxQuantityFour; i++) {

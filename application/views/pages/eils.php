@@ -53,7 +53,7 @@
       <div class="container">
         <div class="row padding-top">
           <div class="col-md-6">
-            <h3><strong>Teq Online PD now includes courses on Effective Instructional Leadership and Supervision.</strong></h3>
+            <h3><strong>Teq Online PD now includes Administrator courses on Effective Instructional Leadership and Supervision.</strong></h3>
             <h5>These courses can provide school leaders with strategies designed to enrich leadership and supervision practices, improve organizational performance, increase college and career readiness, and bolster student achievement.</h5>
             <p><button type="button" class="button" data-toggle="modal" data-target="#brochureform">Request a brochure</button></p>
           </div>
@@ -69,7 +69,7 @@
           <div class="row padding-top">
             <div class="col">
               <h1 class="display-4">Start here.</h1>
-              <p>Below will find a few courses that are found on our subscription based Online Professional Development Platform. If you are looking to increase your level of competence and expertise in managing programs and processes, and in the supervision of teacher pedagogy, our Effective Instructional Leadership and Supervision Courses are for you. Visit <a href="https://onlinepd.teq.com/courses/category/id/44/events/Administrator"><strong>Onlinepd.teq.com</strong></a> to gain full access to our course library or <a href="mailto:onlinepd@teq.com"><strong>contact us</strong></a> for more information.</p>
+              <p>Below are sample courses found on our subscription based Online Professional Development Platform. If you are looking to increase your level of competence and expertise in managing programs and processes, and in the supervision of teacher pedagogy, our Effective Instructional Leadership and Supervision Courses are for you. Visit <a href="https://onlinepd.teq.com/courses/category/id/44/events/Administrator"><strong>opd.teq.com</strong></a> to gain full access to our course library or <a href="mailto:onlinepd@teq.com"><strong>contact us</strong></a> for more information.</p>
             </div>
           </div>
           <div class="row">
@@ -127,7 +127,7 @@
                 <div class="content">
                 <h6>Chief Learning Officer</h6>
                 <h2><strong>Robert-Wayne Harris</strong></h2>
-                <p>Starting out as a classroom social studies teacher for both middle and high schools, Robert-Wayne has had well over 6 years of experience as an educational adminstrator, which eventually landed him the role of Superintendent of schools in New York. He brings a unique level of expertise having proven success on both the administrative and teaching sides of the educational process.</p>
+                <p>Robert has been an educator for over 20 years, working in almost every capacity in the field of education. Prior to Teq, he served as the Superintendent for the Roosevelt School District, Assistant Superintendent for Curriculum, School Improvement, Professional Development, and Planning for the Freeport School District, Associate Director for the Long Island Regional School Support Center, and an Educational Planning Administrator for Nassau BOCES.  While serving as the Superintendent of one of the most challenged and controversial school districts in New York State, Robert was charged by the Commissioner of Education to reform the educational program, to improve academic performance, and to restore the financial stability of the district. Due to Robert’s successful leadership, Roosevelt SD was removed from NYS oversight and restored to local control. Robert remains the youngest and second longest seated Superintendent in the district’s history. </p>
                 <script src="https://fast.wistia.com/embed/medias/eh5elwc2h8.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_eh5elwc2h8 popover=true popoverContent=link" style="display:inline"><a href="#"><button class="button leadership-button">View Bio</button></a></span>
                 </div>
               </div>

@@ -858,7 +858,7 @@ form#nedm-survey button#submit-survey:hover {
 
 .bio-container .bio-content .content {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 10%;
   right: 10%;
   z-index: 500;
@@ -999,7 +999,7 @@ span.stem-icon {
 .nedm-pricing p {
   display: block; /* Fallback for non-webkit */
   display: -webkit-box;
-  height: 190px;
+  height: 215px;
 }
 
 .nedm-pricing img.support-level {
