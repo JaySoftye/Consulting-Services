@@ -421,8 +421,8 @@
             </svg>
             <div class="card padding">
               <img src="public/images/network-enabled-support-level-1-text.svg" alt="" />
-              <h5>Tier 1(FULL Complimentary 1 Hour Consultation)</h5>
-              <p>Free consultation call reviewing the most frequently asked questions, common concerns and providing additional setup and configuration tips.</p>
+              <h5>Complimentary Consultation</h5>
+              <p>Free consultation call, up to 20 minutes, reviewing the most frequently asked questions, common concerns and providing additional setup and configuration tips.</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -435,8 +435,8 @@
             </svg>
             <div class="card padding">
               <img src="public/images/network-enabled-support-level-2-text.svg" alt="" />
-              <h5>Tier 2(Remote/Onsite Solution Description – $400 per hour)</h5>
-              <p>Solve specific configuration issues and challenges that are introduced by various vendor / equipment deployments and security policies.  This will be conducted either onsite or by utilizing remote administration tools.</p>
+              <h5>Remote/Onsite Solution</h5>
+              <p>Solve specific systems and/or network configuration issues and challenges that are introduced by various vendor / equipment deployments and security policies. This will be conducted either onsite or by utilizing remote administration tools at cost of $200 per 30 minutes.</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -451,8 +451,8 @@
             </svg>
             <div class="card padding">
               <img src="public/images/network-enabled-support-level-3-text.svg" alt="" />
-              <h5>Tier 3(Full Solution Description – Cost Quote per project)</h5>
-              <p>We will design and provide a complete network architecture, optimal infrastructure configuration and a topology layout that will enable all current features and functions of network enabled devices within an environment.</p>
+              <h5>Specific reference architecture series</h5>
+              <p>The Specific Reference Architecture Series is an education package presented on-site covering specific reference material to provide insight and solutions to network architecture, administration, and configuration specific for network-enabled device management and SMART Technologies IFP's. This series will be custom designed and specific to the client's network environment whether it applies to a network addendum, the next revision, or a complete solution.</p>
             </div>
           </div>
         </div>
