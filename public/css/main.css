@@ -190,23 +190,23 @@ ol.carousel-indicators .active:after {
 }
 
 .padding {
-  padding: 2.5rem;
+  padding: 2.5rem !important;
 }
 
 .padding-right {
-  padding-right: 6rem;
+  padding-right: 6rem !important;
 }
 
 .padding-left {
-  padding-left: 6rem;
+  padding-left: 6rem !important;
 }
 
 .padding-top {
-  padding-top: 10rem;
+  padding-top: 10rem !important;
 }
 
 .padding-bottom {
-  padding-bottom: 10rem;
+  padding-bottom: 10rem !important;
 }
 
 .center {
@@ -999,7 +999,7 @@ span.stem-icon {
 .nedm-pricing p {
   display: block; /* Fallback for non-webkit */
   display: -webkit-box;
-  height: 215px;
+  height: 300px;
 }
 
 .nedm-pricing img.support-level {

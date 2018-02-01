@@ -267,6 +267,86 @@
                     </div>
                   </div>
                 </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-appication-fabric-report.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>Create an Application Fabric</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-appication-fabrics.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>Application Sessions</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-application-tcp-failture.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>Identify Application and TCP Failures</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-application-flow.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>Application Flow</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-application-performance.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>Examine Application Performance</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-bandwidth-utilization.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>Bandwidth Utilization</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-connection-spikes.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>Identify Connection Spikes</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card">
+                        <img src="public/images/nedm-sample-response-times.jpg" alt="" />
+                        <div class="card-body">
+                          <h5>Network Response Time</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="padding">
                 <ol class="carousel-indicators">
@@ -275,6 +355,10 @@
                   <li data-target="#carouselReportSamples" data-slide-to="2"></li>
                   <li data-target="#carouselReportSamples" data-slide-to="3"></li>
                   <li data-target="#carouselReportSamples" data-slide-to="4"></li>
+                  <li data-target="#carouselReportSamples" data-slide-to="5"></li>
+                  <li data-target="#carouselReportSamples" data-slide-to="6"></li>
+                  <li data-target="#carouselReportSamples" data-slide-to="7"></li>
+                  <li data-target="#carouselReportSamples" data-slide-to="8"></li>
                 </ol>
               </div>
             </div>
