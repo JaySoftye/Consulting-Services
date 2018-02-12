@@ -125,13 +125,13 @@
           </div>
           <div class="col-md-7 survey">
             <h2><span class="circle-stroke">1</span> Network Survey</h2>
-            <p>When you purchase interactive flat panels from Teq we perform a site survey. We now require that you fill out an <a href="http://www-dev.teq.com/nedm-survey/">online network survey</a> that will generate a report describing your network infrastructure.</p>
+            <p>When you purchase interactive flat panels from Teq we perform a site survey. We now require that you fill out an <a href="/consulting-services/nedm/survey/">online network survey</a> that will generate a report describing your network infrastructure.</p>
           </div>
         </div>
         <div class="row padding">
           <div class="col-md-7 survey">
             <h2 class="text-right">Analysis Report <span class="circle-stroke">2</span></h2>
-            <p>The survey will be accompanied by an analysis of the performance of your network from the standpoint of bandwidth allocation and usage, software, applications, and network-enabled devices. We require your permission to attach our <strong>zero-impact performance analyzer</strong> in order to generate the graphs and charts (see examples below) that will assist us in developing the impact statement. Check the appropriate box in the <a href="http://www-dev.teq.com/nedm-survey/">survey</a>.</p>
+            <p>The survey will be accompanied by an analysis of the performance of your network from the standpoint of bandwidth allocation and usage, software, applications, and network-enabled devices. We require your permission to attach our <strong>zero-impact performance analyzer</strong> in order to generate the graphs and charts (see examples below) that will assist us in developing the impact statement. Check the appropriate box in the <a href="/consulting-services/nedm/survey/">survey</a>.</p>
           </div>
           <div class="col-md-5">
             <div class="card">
@@ -152,7 +152,7 @@
         </div>
         <div class="row padding">
           <div class="col-md">
-            <p class="text-center"><a href="../nedm-survey/"><button class="button light start">Start your survey</button></a></p>
+            <p class="text-center"><a href="../consulting-services/nedm/survey/"><button class="button light start">Start your survey</button></a></p>
           </div>
         </div>
         <div class="row padding-top">

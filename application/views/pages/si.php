@@ -41,7 +41,7 @@
           <h5>While some schools already have clear goals for their STEM programs, others are still exploring their options, and may need guidance in how to design a program that will provide their students with logical STEM sequences that effectively scaffold learning.</h5>
         </div>
         <div class="card vid-button">
-          <script src="https://fast.wistia.com/embed/medias/q58yenr88m.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_q58yenr88m popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:203px;width:auto;">&nbsp;</span>
+          <script src="https://fast.wistia.com/embed/medias/o1btc7i17d.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_o1btc7i17d popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:203px;width:auto;">&nbsp;</span>
         </div>
       </div>
     </div>
@@ -128,7 +128,7 @@
                 <h6>Director of Curriculum and Content</h6>
                 <h2><strong>Andrew Grefig</strong></h2>
                 <p>Andrew started his career by biological field tests as a forensic chemist, before becoming a high school chemistry teacher. He is a veteran employee at Teq, with over 7 years experience as a STEM Curriculum and Professional Development Specialist.</p>
-                <script src="https://fast.wistia.com/embed/medias/eh5elwc2h8.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_eh5elwc2h8 popover=true popoverContent=link" style="display:inline"><a href="#"><button class="button stem-button">View Bio</button></a></span>
+                <script src="https://fast.wistia.com/embed/medias/5fsh274x34.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_5fsh274x34 popover=true popoverContent=link" style="display:inline"><a href="#"><button class="button stem-button">View Bio</button></a></span>
                 </div>
               </div>
             </div>

@@ -35,6 +35,16 @@ a img:hover, a img:focus, a img:active, .card.vid-button:hover {
   opacity: 0.8;
 }
 
+ol {
+  padding-left: 15px;
+}
+
+ol li {
+  margin: 0 0 15px 0;
+  font-weight: 300;
+  font-size: 90%;
+}
+
 /*! bootstrap Overrides */
 
 h1 {
@@ -109,18 +119,6 @@ strong a:hover {
   border-radius: 0 !important;
 }
 
-.modal-body {
-  margin-top: 25px;
-}
-
-.modal-backdrop {
-  background-color: rgb(255, 255, 255) !important;
-}
-
-modal-backdrop.show {
-  opacity: .85 !important;
-}
-
 button.close {
   opacity: 1 !important;
 }
@@ -133,7 +131,12 @@ button.close span {
 }
 
 div.modal-dialog {
-  top: 12%;
+  top: 5%;
+}
+
+div.modal-body {
+  max-height: 60vh !important;
+  overflow-y: scroll;
 }
 
 div.carousel-inner div.carousel-item {
@@ -711,41 +714,21 @@ div.consulting-services-intro-content div.consulting-services-intro {
   padding-top: 15px;
 }
 
-form#nedm-survey {
-  padding: 2.75rem 0;
-}
-
-form#nedm-survey h2 {
+form#survey-form h2 {
   padding-top: .5rem;
   padding-right: 1rem;
 }
 
-form#nedm-survey label, form#nedm-survey .form-check p {
+form#survey-form label, form#survey-form .form-check p {
   margin-bottom: 0;
   font-weight: normal;
 }
 
-form#nedm-survey .group-row {
-  margin-top: 2.5rem;
-}
-
-form#nedm-survey .form-group {
+form#survey-form .form-group {
   margin-bottom: 2.5rem;
 }
 
-form#nedm-survey span.errormsg {
-  height: 15px;
-  font-weight: bold;
-  color: #B51020;
-}
-
-form#nedm-survey h4.error, form#nedm-survey h4.error img {
-  font-weight: bold;
-  height: 25px;
-  color: #B51020;
-}
-
-form#nedm-survey .form-control {
+form#survey-form .form-control {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -756,19 +739,19 @@ form#nedm-survey .form-control {
   color: rgb(77, 168, 182);
 }
 
-form#nedm-survey .form-control.errorfield, input.form-check-input.errorfield {
+form#survey-form .form-control.errorfield, input.form-check-input.errorfield {
   border: 2px solid #B51020 !important;
   -webkit-box-shadow: 0px 0px 2px 0px #B51020;
   -moz-box-shadow: 0px 0px 2px 0px #B51020;
   box-shadow: 0px 0px 2px 0px #B51020;
 }
 
-form#nedm-survey .form-check label.form-check-label {
+form#survey-form .form-check label.form-check-label {
   display: block;
   margin-bottom: 10px;
 }
 
-form#nedm-survey label.form-check-label input.form-check-input {
+form#survey-form label.form-check-label input.form-check-input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -780,14 +763,14 @@ form#nedm-survey label.form-check-label input.form-check-input {
   color: rgb(77, 168, 182);
 }
 
-form#nedm-survey label.form-check-label input[type=radio]:checked {
+form#survey-form label.form-check-label input[type=radio]:checked {
   background-color: black;
   background-image: url('../images/ConsultingServices_form-check-label_bg.svg');
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-form#nedm-survey label.form-check-label span.form-check-input-text {
+form#survey-form label.form-check-label span.form-check-input-text {
   display: inline-block;
   padding-left: 35px;
   margin-top: 10px;
@@ -795,7 +778,7 @@ form#nedm-survey label.form-check-label span.form-check-input-text {
   font-size: 1.25rem;
 }
 
-form#nedm-survey button#submit-survey {
+form#survey-form button#submit-survey {
   display: block;
   margin: 2rem auto !important;
   outline: none;
@@ -813,7 +796,7 @@ form#nedm-survey button#submit-survey {
   z-index: 1;
 }
 
-form#nedm-survey button#submit-survey:hover {
+form#survey-form button#submit-survey:hover {
   background-color: transparent;
   color: black;
   -webkit-transition: background-color 0.4s ease-out;
@@ -1348,8 +1331,9 @@ div#sectionFour div.animation-two-container img.two {
 
 .container-fluid.nedm-header, .nedm-header {
   background-color: rgb(77, 168, 182);
-  padding-top: 15.5%;
+  padding-top: 12.5%;
   padding-bottom: 2.75rem;
+  margin-bottom: 2.5rem;
 }
 
 .container-fluid.brochure {
