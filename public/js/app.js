@@ -84,14 +84,14 @@ $(document).ready(function(){
             var currentElement = parallaxElementsFive.eq(i);
             var scrolled = $(window).scrollTop();
               currentElement.css({
-                'transform': 'translate3d(0,' + scrolled * +0.05 + 'px, 0)'
+                'transform': 'translate3d(0,' + scrolled * +0.075 + 'px, 0)'
               });
           }
           for (var i = 0; i < parallaxQuantitySix; i++) {
             var currentElement = parallaxElementsSix.eq(i);
             var scrolled = $(window).scrollTop();
               currentElement.css({
-                'transform': 'translate3d(0,' + scrolled * -0.35 + 'px, 0)'
+                'transform': 'translate3d(0,' + scrolled * -0.4 + 'px, 0)'
               });
           }
         });

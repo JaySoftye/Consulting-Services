@@ -26,7 +26,7 @@
                 $('#survey-form').submit();
             }
         });
-        
+
       });
     </script>
 
@@ -56,10 +56,10 @@
         <li class="nav-item">
           <h6><a class="white nav-link" data-toggle="collapse" href="#mobileConsultingServices" aria-expanded="false" aria-controls="mobileConsultingServices">Consulting Services</a></h6>
           <ul class="footerLinks subnav collapse" id="mobileConsultingServices">
-            <li><a href="http://www.teq.com/consulting-services/" class="white">About Teq Consulting</a></li>
-            <li><a href="http://www.teq.com/consulting-services/eils/" class="white">Effective Educational Leadership &amp; Supervision</a></li>
-            <li><a href="http://www.teq.com/consulting-services/nedm/" class="white">Network-Enabled Device Management</a></li>
-            <li><a href="http://www.teq.com/consulting-services/si/" class="white">Stem Initiatives</a></li>
+            <li><a href="http://www.teq.com/consulting-services" class="white">About Teq Consulting</a></li>
+            <li><a href="http://www.teq.com/consulting-services/eils" class="white">Effective Educational Leadership &amp; Supervision</a></li>
+            <li><a href="http://www.teq.com/consulting-services/nedm" class="white">Network-Enabled Device Management</a></li>
+            <li><a href="http://www.teq.com/consulting-services/si" class="white">Stem Initiatives</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -217,10 +217,10 @@
     <div class="collapse fade subnav" id="consultingServices">
       <div class="container">
         <ul class="nav row">
-          <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services/">About Teq Consulting</a></li>
-          <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services/eils/">Effective Educational Leadership &amp; Supervision</a></li>
-          <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services/nedm/">Network-Enabled Device Management</a></li>
-          <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services/si/">Stem Initiatives</a></li>
+          <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services">About Teq Consulting</a></li>
+          <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services/eils">Effective Educational Leadership &amp; Supervision</a></li>
+          <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services/nedm">Network-Enabled Device Management</a></li>
+          <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services/si">Stem Initiatives</a></li>
           <li class="nav-item col-sm closeMenuCell"><a href="#consultingServices" data-toggle="collapse" aria-expanded="false" aria-controls="consultingServices"><img class="closeLogo" src="/consulting-services/public/images/subnav-collapse-icon.svg" /></a></li>
         </ul>
       </div>

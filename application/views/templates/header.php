@@ -42,10 +42,10 @@
         <li class="nav-item">
           <h6><a class="white nav-link" data-toggle="collapse" href="#mobileConsultingServices" aria-expanded="false" aria-controls="mobileConsultingServices">Consulting Services</a></h6>
           <ul class="footerLinks subnav collapse" id="mobileConsultingServices">
-            <li><a href="http://www.teq.com/consulting-services/" class="white">About Teq Consulting</a></li>
-            <li><a href="http://www.teq.com/consulting-services/eils/" class="white">Effective Educational Leadership &amp; Supervision</a></li>
-            <li><a href="http://www.teq.com/consulting-services/nedm/" class="white">Network-Enabled Device Management</a></li>
-            <li><a href="http://www.teq.com/consulting-services/si/" class="white">Stem Initiatives</a></li>
+            <li><a href="http://www.teq.com/consulting-services" class="white">About Teq Consulting</a></li>
+            <li><a href="http://www.teq.com/consulting-services/eils" class="white">Effective Educational Leadership &amp; Supervision</a></li>
+            <li><a href="http://www.teq.com/consulting-services/nedm" class="white">Network-Enabled Device Management</a></li>
+            <li><a href="http://www.teq.com/consulting-services/si" class="white">Stem Initiatives</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -146,27 +146,34 @@
             </ul>
           </li>
           <li class="col-sm">
-              <h5><a class="nav-link subnav-link" href="../stem/">STEM</a></h5>
-              <ul>
-                <li><a href="../stem/robotics/" class="subnav-link">Robotics</a>
-                  <ul>
-                    <li class="level2"><a href="../stem/jumpstart-nao/" class="subnav-link">Jumpstart NAO</a></li>
-                    <li class="level2"><a href="../stem/robotis/" class="subnav-link">Robotis</a></li>
+              <h5><a class="nav-link subnav-link" href="<?php echo site_url(); ?>/stem/">STEM</a></h5>
+              <ul class="nav">
+                <li><a href="<?php echo site_url(); ?>/stem/robotics/" class="subnav-link">Robotics</a>
+                  <ul class="nav">
+                    <li class="level2"><a href="<?php echo site_url(); ?>/stem/jumpstart-nao/" class="subnav-link">Jumpstart NAO</a></li>
+                    <li class="level2"><a href="<?php echo site_url(); ?>/stem/robotis/" class="subnav-link">Robotis</a></li>
                   </ul>
                 </li>
-                <li><a href="../stem/3d-printers/" class="subnav-link">3D Printers</a>
-                  <ul>
-                    <li class="level2"><a href="../stem/ultimaker-3d-printer/" class="subnav-link">Ultimaker</a></li>
-                    <li class="level2"><a href="../stem/makerbot-3d-printer/" class="subnav-link">MakerBot</a></li>
-                    <li class="level2"><a href="../stem/3d-printer-labs/" class="subnav-link">3D Printer Labs</a></li>
+                <li><a href="<?php echo site_url(); ?>/stem/3d-printers/" class="subnav-link">3D Printers</a>
+                  <ul class="nav">
+                    <li class="level2"><a href="<?php echo site_url(); ?>/stem/ultimaker-3d-printer/" class="subnav-link">Ultimaker</a></li>
+                    <li class="level2"><a href="<?php echo site_url(); ?>/stem/makerbot-3d-printer/" class="subnav-link">MakerBot</a></li>
+                    <li class="level2"><a href="<?php echo site_url(); ?>/stem/3d-printer-labs/" class="subnav-link">3D Printer Labs</a></li>
                   </ul>
                 </li>
-                <li><a href="../stem/zspace/" class="subnav-link">zSpace</a></li>
-                <li><a href="../stem/labdisc/" class="subnav-link">Labdisc</a></li>
-                <li><a href="../stem/sparkfun/" class="subnav-link">Sparkfun</a></li>
-                <li><a href="../stem/pi-top/" class="subnav-link">Pi-Top</a></li>
-                <li><a href="../stem/stem-mobile-carts/" class="subnav-link">STEM Mobile Carts</a></li>
-                <li><a href="../stem/furniture/" class="subnav-link">Furniture</a></li>
+                <li><a href="<?php echo site_url(); ?>/stem/zspace/" class="subnav-link">zSpace</a></li>
+                <li><a href="<?php echo site_url(); ?>/stem/labdisc/" class="subnav-link">Labdisc</a></li>
+                <li><a href="<?php echo site_url(); ?>/stem/sparkfun/" class="subnav-link">Sparkfun</a></li>
+                <li><a href="<?php echo site_url(); ?>/stem/pi-top/" class="subnav-link">Pi-Top</a></li>
+                <li><a href="<?php echo site_url(); ?>/stem/electronics-coding-bundle/" class="subnav-link">Coding Bundles</a></li>
+              </ul>
+          </li>
+          <li class="col-sm">
+              <h5><a class="nav-link subnav-link" href="<?php echo site_url(); ?>/makerspaces/">Makerspaces</a></h5>
+              <ul class="nav">
+                <li><a href="<?php echo site_url(); ?>/makerspaces/stem-labs/" class="subnav-link">Mobile STEM Labs</a></li>
+                <li><a href="<?php echo site_url(); ?>/makerspaces/stem-maker-station/" class="subnav-link">STEM Maker Station</a></li>
+                <li><a href="<?php echo site_url(); ?>/makerspaces/furniture/" class="subnav-link">Furniture</a></li>
               </ul>
           </li>
           <li class="col-sm">
@@ -203,10 +210,10 @@
     <div class="collapse fade subnav" id="consultingServices">
       <div class="container">
         <ul class="nav row">
-          <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services/">About Teq Consulting</a></li>
-          <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services/eils/">Effective Educational Leadership &amp; Supervision</a></li>
-          <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services/nedm/">Network-Enabled Device Management</a></li>
-          <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services/si/">Stem Initiatives</a></li>
+          <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services">About Teq Consulting</a></li>
+          <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services/eils">Effective Educational Leadership &amp; Supervision</a></li>
+          <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services/nedm">Network-Enabled Device Management</a></li>
+          <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services/si">Stem Initiatives</a></li>
           <li class="nav-item col-sm closeMenuCell"><a href="#consultingServices" data-toggle="collapse" aria-expanded="false" aria-controls="consultingServices"><img class="closeLogo" src="public/images/subnav-collapse-icon.svg" /></a></li>
         </ul>
       </div>
