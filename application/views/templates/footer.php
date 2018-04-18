@@ -22,6 +22,7 @@
       <ul class="footerLinks collapse" id="footerServices">
         <li><a href="../support-and-services/" class="white">Service Plans</a></li>
         <li><a href="../support-and-services/support-resources/" class="white">Product Guides</a></li>
+        <li><a href="http://www.teq.com/consulting-services/nedm#ifp-faq" class="white">FAQ's</a></li>
       </ul>
       <h6><a class="white" data-toggle="collapse" href="#footerLearning" aria-expanded="false" aria-controls="footerLearning">Community &#187;</a></h6>
       <ul class="footerLinks collapse" id="footerLearning">
@@ -74,6 +75,16 @@
 </footer>
 
 <script type="text/javascript" src="/consulting-services/public/js/bootstrap.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-67374790-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-67374790-2');
+</script>
+
 
 </body>
 </html>

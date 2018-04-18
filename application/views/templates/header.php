@@ -62,6 +62,7 @@
             <ul class="footerLinks subnav collapse" id="mobileMenuServices">
               <li><a href="http://www.teq.com/support-and-services/" class="white">Service and Bundles</a></li>
               <li><a href="http://www.teq.com/support-and-services/support-resources/" class="white">Projector Guides</a></li>
+              <li><a href="http://www.teq.com/consulting-services/nedm#ifp-faq" class="white">FAQ's</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -236,6 +237,7 @@
             <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/support-and-services/support-resources/">Product Guides</a></li>
             <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/support-and-services/#contactSupportTeam">Contact Support</a></li>
             <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/support-and-services/teqsquad/">Teq Squad</a></li>
+            <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services/nedm#ifp-faq" class="white">FAQ's</a></li>
             <li class="nav-item col-sm closeMenuCell"><a href="#supportMenu" data-toggle="collapse" aria-expanded="false" aria-controls="supportMenu"><img class="closeLogo" src="public/images/subnav-collapse-icon.svg" /></a></li>
           </ul>
         </div>
@@ -256,6 +258,7 @@
         <div class="container">
           <ul class="nav row">
             <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/about-us/">About</a></li>
+            <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/roadmap">Roadmap</a></li>
             <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/about-us/press-releases/">Press Releases</a></li>
             <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/about-us/testimonials/">Testimonials</a></li>
             <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/about-us/teq-careers/">Careers at Teq</a></li>

@@ -1003,7 +1003,7 @@ span.stem-icon {
 .nedm-pricing p {
   display: block; /* Fallback for non-webkit */
   display: -webkit-box;
-  height: 300px;
+  height: auto;
 }
 
 .nedm-pricing img.support-level {
