@@ -948,7 +948,7 @@ span.stem-icon {
 
 .nedm-data-container .nedm-data .nedm-data-field:hover {
   background-color: rgb(77, 168, 182) !important;
-  color: white;
+  color: white !important;
   -webkit-transition: background-color 0.2s ease-out;
   -moz-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
