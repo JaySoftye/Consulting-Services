@@ -498,7 +498,7 @@
               <img src="public/images/network-enabled-faq-icon-2.svg" />
             </h6>
             <div class="collapse" id="collapseTwo">
-              <p>Yes, the following information can be found at: <a href="https://support.smarttech.com/docs/hardware/displays/smart-board-6000/en/installing-and-maintaining/configuring/connecting-to-a-network.cshtml">https://support.smarttech.com/docs/hardware/displays/smart-board-6000/en/installing-and-maintaining/configuring/connecting-to-a-network.cshtml</a></p>
+              <p>Yes, the following information can be found at: <a href="https://support.smarttech.com/docs/software/iq/en/configuring/connecting-to-a-network.cshtml">https://support.smarttech.com/docs/software/iq/en/configuring/connecting-to-a-network.cshtml</a></p>
               <p>This includes a description of what port/ protocol is used for as well as which URLs are for connected services. </p>
               <p class="lead text-right"><a class="question"><span>&times;</span></a></p>
             </div>
@@ -512,7 +512,7 @@
             </h6>
             <div class="collapse" id="collapseThree">
               <p>No, in most environments impact should be negligible. In specific cases, depending on customer equipment and network topology, below are some guidelines to follow:</p>
-              <p>Treat each IFP as a tablet or Chromebook, for example, in terms of possible bandwidth consumption. Given the nature of these types of devices, bandwidth profiles are usually limited to a few 100 KB to several MBs based on application. For additional reference material, please visit the following URL: <br /><a href="https://support.smarttech.com/docs/hardware/displays/smart-board-6000/en/installing-and-maintaining/configuring/connecting-to-a-network.cshtml">https://support.smarttech.com/docs/hardware/displays/smart-board-6000/en/installing-and-maintaining/configuring/connecting-to-a-network.cshtml</a></p>
+              <p>Treat each IFP as a tablet or Chromebook, for example, in terms of possible bandwidth consumption. Given the nature of these types of devices, bandwidth profiles are usually limited to a few 100 KB to several MBs based on application. For additional reference material, please visit the following URL: <br /><a href="https://support.smarttech.com/docs/software/iq/en/configuring/connecting-to-a-network.cshtml">https://support.smarttech.com/docs/software/iq/en/configuring/connecting-to-a-network.cshtml</a></p>
               <p class="lead text-right"><a class="question"><span>&times;</span></a></p>
             </div>
           </div>
@@ -644,7 +644,7 @@
               <img src="public/images/network-enabled-faq-icon-14.svg" />
             </h6>
             <div class="collapse" id="collapseFourteen">
-              <p>Yes. Please refer to this article for details: <a href="https://support.smarttech.com/docs/hardware/displays/smart-board-6000/en/installing-and-maintaining/configuring/connecting-to-a-network.cshtml"> https://support.smarttech.com/docs/hardware/displays/smart-board-6000/en/installing-and-maintaining/configuring/connecting-to-a-network.cshtml</a></p>
+              <p>Yes. Please refer to this article for details: <a href="https://support.smarttech.com/docs/software/iq/en/configuring/connecting-to-a-network.cshtml">https://support.smarttech.com/docs/software/iq/en/configuring/connecting-to-a-network.cshtml</a></p>
             <p class="lead text-right"><a class="question"><span>&times;</span></a></p>
             </div>
           </div>
@@ -656,7 +656,7 @@
               <img src="public/images/network-enabled-faq-icon-15.svg" />
             </h6>
             <div class="collapse" id="collapseFifteen">
-              <p>To prevent automatic updates, utilize a whitelist/blacklist configuration to allow or disallow updates. Please refer to this article for details: <a href="https://support.smarttech.com/docs/hardware/displays/smart-board-6000/en/installing-and-maintaining/configuring/connecting-to-a-network.cshtml">https://support.smarttech.com/docs/hardware/displays/smart-board-6000/en/installing-and-maintaining/configuring/connecting-to-a-network.cshtml</a></p>
+              <p>To prevent automatic updates, utilize a whitelist/blacklist configuration to allow or disallow updates. Please refer to this article for details: <a href="https://support.smarttech.com/docs/software/iq/en/configuring/connecting-to-a-network.cshtml">https://support.smarttech.com/docs/software/iq/en/configuring/connecting-to-a-network.cshtml</a></p>
             <p class="lead text-right"><a class="question"><span>&times;</span></a></p>
             </div>
           </div>
