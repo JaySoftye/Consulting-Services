@@ -1003,6 +1003,7 @@ span.stem-icon {
 
 .faq-accordion a {
   color: rgb(77, 168, 182);
+  word-wrap: break-word;
 }
 
 .nedm-pricing {
