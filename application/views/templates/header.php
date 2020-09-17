@@ -19,7 +19,7 @@
   </head>
 
 <body>
-
+<!--
     <nav id="mainNav">
 
       <div class="mobileNav hide-large">
@@ -196,9 +196,7 @@
                   </li>
                   <li><a href="https://www.teq.com/sight-and-sound/audio-enhancement/" class="subnav-link">Audio Enhancement</a></li>
                   <li><a href="https://www.teq.com/sight-and-sound/safe-system/" class="subnav-link">SAFE System</a></li>
-                  <!--
-                    <li><a href="https://www.teq.com/sight-and-sound/smart-table/" class="subnav-link">SMART Table</a></li>
-                  -->
+                  <li><a href="https://www.teq.com/sight-and-sound/smart-table/" class="subnav-link">SMART Table</a></li>
                   <li><a href="https://www.teq.com/sight-and-sound/wall-mounts-mobile-stands/" class="subnav-link">Wall Mounts/Mobile Stands</a></li>
                   <li><a href="https://www.teq.com/sight-and-sound/tech-tub/" class="subnav-link">Tech Tub</a></li>
                   <li><a href="https://www.teq.com/sight-and-sound/accessories/" class="subnav-link">Accessories</a></li>
@@ -289,3 +287,4 @@
       </div>
 
     </nav>
+  -->
